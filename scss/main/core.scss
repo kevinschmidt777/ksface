@@ -38,9 +38,9 @@ body {
 // Headlines
 @mixin headlines {
   @if $darkmode == false {
-    color: $headlines-font-color;
+    color: darken($font-color, 15%);
   } @else {
-    color: invert($headlines-font-color);
+    color: invert(darken($font-color, 15%));
   }
 }
 h1 {
