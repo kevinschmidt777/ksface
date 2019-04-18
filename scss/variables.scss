@@ -1,12 +1,18 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
-// Typography
+// Easily switch to dark mode (true/false).
+// Inverts all base color settings (Text, Default Background, etc. - Not primary, secondary nor specific colors).
+$darkmode: true !default;
+
+// Base typography
 $font-size: 18px !default;
 $font-color: #5b5b5b !default;
 
+// Headlines
+$headlines-font-color: #3e3e3e !default;
+
 // Colors
 $color-primary: #ff7b62 !default;
-
-// Headlines
-$headlines-font-color: #000 !default;
+$color-secondary: #444242 !default;
+$color-default: #ffffff !default;

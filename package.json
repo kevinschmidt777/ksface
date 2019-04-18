@@ -14,7 +14,8 @@
   },
   "author": "Kevin Schmidt",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "prettier": "^1.17.0"
   }
 }

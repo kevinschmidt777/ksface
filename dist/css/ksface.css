@@ -18,11 +18,12 @@ p {
 body {
   font-size: 18px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #5b5b5b;
+  color: #a4a4a4;
+  background-color: black;
 }
 
 h1 {
-  color: #000;
+  color: #c1c1c1;
   font-size: 3rem;
 }
 
@@ -46,6 +47,28 @@ h1 {
 }
 .ks-background-primary-lightest {
   background-color: white;
+}
+
+.ks-background-secondary {
+  background-color: #444242;
+}
+.ks-background-secondary-dark {
+  background-color: #2a2929;
+}
+.ks-background-secondary-darker {
+  background-color: #101010;
+}
+.ks-background-secondary-darkest {
+  background-color: black;
+}
+.ks-background-secondary-light {
+  background-color: #5e5b5b;
+}
+.ks-background-secondary-lighter {
+  background-color: #787474;
+}
+.ks-background-secondary-lightest {
+  background-color: #9e9b9b;
 }
 
 /*# sourceMappingURL=ksface.css.map */

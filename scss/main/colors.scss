@@ -48,3 +48,25 @@
     @include lightest($color-primary);
   }
 }
+
+.ks-background-secondary {
+  background-color: $color-secondary;
+  &-dark {
+    @include dark($color-secondary);
+  }
+  &-darker {
+    @include darker($color-secondary);
+  }
+  &-darkest {
+    @include darkest($color-secondary);
+  }
+  &-light {
+    @include light($color-secondary);
+  }
+  &-lighter {
+    @include lighter($color-secondary);
+  }
+  &-lightest {
+    @include lightest($color-secondary);
+  }
+}

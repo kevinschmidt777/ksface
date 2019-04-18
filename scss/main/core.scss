@@ -4,7 +4,7 @@
 // Google Web Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-// Reset all paddings and margins
+// Global paddings and margins reset
 html,
 body,
 h1,
@@ -21,16 +21,27 @@ p {
   margin: 0;
 }
 
-// Global typography
+// Base settings
 body {
   font-size: $font-size;
   font-family: 'Source Sans Pro', sans-serif;
-  color: $font-color;
+
+  @if $darkmode == false {
+    color: $font-color;
+    background-color: $color-default;
+  } @else {
+    color: invert($font-color, 100%);
+    background-color: invert($color-default, 100%);
+  }
 }
 
 // Headlines
 @mixin headlines {
-  color: $headlines-font-color;
+  @if $darkmode == false {
+    color: $headlines-font-color;
+  } @else {
+    color: invert($headlines-font-color);
+  }
 }
 h1 {
   @include headlines;
