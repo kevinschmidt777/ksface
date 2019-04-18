@@ -6,24 +6,94 @@
   background-color: $color-primary;
   &-shade {
     background-color: darken($color-primary, $tint-minimal);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+    }
   }
   &-dark {
     background-color: darken($color-primary, $tint-low);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+    }
   }
   &-darker {
     background-color: darken($color-primary, $tint-medium);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+    }
   }
   &-darkest {
     background-color: darken($color-primary, $tint-high);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+    }
   }
   &-light {
     background-color: lighten($color-primary, $tint-low);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+    }
   }
   &-lighter {
     background-color: lighten($color-primary, $tint-medium);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+    }
   }
   &-lightest {
     background-color: lighten($color-primary, $tint-high);
+    &-underline {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+    }
+    &-upperline {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+    }
   }
 }
 .ks-background-secondary {
@@ -288,5 +358,167 @@
   }
   &-lightest {
     background-color: lighten($color-turquoise, $tint-high);
+  }
+}
+
+// Background hovers
+.ks-background-hover-primary {
+  transition: $transition-timer;
+  &:hover {
+    background-color: $color-primary;
+  }
+  &-shade {
+    transition: $transition-timer;
+    &:hover {
+      background-color: darken($color-primary, $tint-minimal);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+      }
+    }
+  }
+  &-dark {
+    transition: $transition-timer;
+    &:hover {
+      background-color: darken($color-primary, $tint-low);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      }
+    }
+  }
+  &-darker {
+    transition: $transition-timer;
+    &:hover {
+      background-color: darken($color-primary, $tint-medium);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      }
+    }
+  }
+  &-darkest {
+    transition: $transition-timer;
+    &:hover {
+      background-color: darken($color-primary, $tint-high);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      }
+    }
+  }
+  &-light {
+    transition: $transition-timer;
+    &:hover {
+      background-color: lighten($color-primary, $tint-low);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      }
+    }
+  }
+  &-lighter {
+    transition: $transition-timer;
+    &:hover {
+      background-color: lighten($color-primary, $tint-medium);
+    }
+    &-underline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
+      }
+    }
+    &-upperline {
+      transition: $transition-timer;
+      &:hover {
+        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+        box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      }
+    }
+  }
+  &-lightest {
+    transition: $transition-timer;
+    &:hover {
+      background-color: lighten($color-primary, $tint-high);
+    }
+  }
+  &-underline {
+    transition: $transition-timer;
+    &:hover {
+      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
+    }
+  }
+  &-upperline {
+    transition: $transition-timer;
+    &:hover {
+      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
+    }
   }
 }

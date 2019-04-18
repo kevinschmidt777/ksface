@@ -1,12 +1,2 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
-
-.ks-button {
-  &-primary {
-    &-hover-solid {
-      &:hover {
-        background-color: darken($color-primary, 20%);
-      }
-    }
-  }
-}

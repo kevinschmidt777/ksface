@@ -58,23 +58,93 @@ input[type=submit] {
 .ks-background-primary-shade {
   background-color: #ff755a;
 }
+.ks-background-primary-shade-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #ff755a;
+  -moz-box-shadow: inset 0 -5px 0 #ff755a;
+  box-shadow: inset 0 -5px 0 #ff755a;
+}
+.ks-background-primary-shade-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #ff755a;
+  -moz-box-shadow: inset 0 5px 0 #ff755a;
+  box-shadow: inset 0 5px 0 #ff755a;
+}
 .ks-background-primary-dark {
   background-color: #ff502f;
+}
+.ks-background-primary-dark-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #ff502f;
+  -moz-box-shadow: inset 0 -5px 0 #ff502f;
+  box-shadow: inset 0 -5px 0 #ff502f;
+}
+.ks-background-primary-dark-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #ff502f;
+  -moz-box-shadow: inset 0 5px 0 #ff502f;
+  box-shadow: inset 0 5px 0 #ff502f;
 }
 .ks-background-primary-darker {
   background-color: #fb2800;
 }
+.ks-background-primary-darker-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #fb2800;
+  -moz-box-shadow: inset 0 -5px 0 #fb2800;
+  box-shadow: inset 0 -5px 0 #fb2800;
+}
+.ks-background-primary-darker-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #fb2800;
+  -moz-box-shadow: inset 0 5px 0 #fb2800;
+  box-shadow: inset 0 5px 0 #fb2800;
+}
 .ks-background-primary-darkest {
   background-color: #c82000;
+}
+.ks-background-primary-darkest-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #c82000;
+  -moz-box-shadow: inset 0 -5px 0 #c82000;
+  box-shadow: inset 0 -5px 0 #c82000;
+}
+.ks-background-primary-darkest-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #c82000;
+  -moz-box-shadow: inset 0 5px 0 #c82000;
+  box-shadow: inset 0 5px 0 #c82000;
 }
 .ks-background-primary-light {
   background-color: #ffa695;
 }
+.ks-background-primary-light-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #ff502f;
+  -moz-box-shadow: inset 0 -5px 0 #ff502f;
+  box-shadow: inset 0 -5px 0 #ff502f;
+}
+.ks-background-primary-light-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #ff502f;
+  -moz-box-shadow: inset 0 5px 0 #ff502f;
+  box-shadow: inset 0 5px 0 #ff502f;
+}
 .ks-background-primary-lighter {
   background-color: #ffd1c8;
 }
+.ks-background-primary-lighter-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #fb2800;
+  -moz-box-shadow: inset 0 -5px 0 #fb2800;
+  box-shadow: inset 0 -5px 0 #fb2800;
+}
+.ks-background-primary-lighter-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #fb2800;
+  -moz-box-shadow: inset 0 5px 0 #fb2800;
+  box-shadow: inset 0 5px 0 #fb2800;
+}
 .ks-background-primary-lightest {
   background-color: #fffcfb;
+}
+.ks-background-primary-lightest-underline {
+  -webkit-box-shadow: inset 0 -5px 0 #c82000;
+  -moz-box-shadow: inset 0 -5px 0 #c82000;
+  box-shadow: inset 0 -5px 0 #c82000;
+}
+.ks-background-primary-lightest-upperline {
+  -webkit-box-shadow: inset 0 5px 0 #c82000;
+  -moz-box-shadow: inset 0 5px 0 #c82000;
+  box-shadow: inset 0 5px 0 #c82000;
 }
 
 .ks-background-secondary {
@@ -350,6 +420,167 @@ input[type=submit] {
 }
 .ks-background-turquoise-lightest {
   background-color: #cef8e7;
+}
+
+.ks-background-hover-primary {
+  transition: 0.1s;
+}
+.ks-background-hover-primary:hover {
+  background-color: #ff7b62;
+}
+.ks-background-hover-primary-shade {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-shade:hover {
+  background-color: #ff755a;
+}
+.ks-background-hover-primary-shade-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-shade-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #ff755a;
+  -moz-box-shadow: inset 0 -5px 0 #ff755a;
+  box-shadow: inset 0 -5px 0 #ff755a;
+}
+.ks-background-hover-primary-shade-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-shade-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #ff755a;
+  -moz-box-shadow: inset 0 5px 0 #ff755a;
+  box-shadow: inset 0 5px 0 #ff755a;
+}
+.ks-background-hover-primary-dark {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-dark:hover {
+  background-color: #ff502f;
+}
+.ks-background-hover-primary-dark-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-dark-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #ff502f;
+  -moz-box-shadow: inset 0 -5px 0 #ff502f;
+  box-shadow: inset 0 -5px 0 #ff502f;
+}
+.ks-background-hover-primary-dark-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-dark-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #ff502f;
+  -moz-box-shadow: inset 0 5px 0 #ff502f;
+  box-shadow: inset 0 5px 0 #ff502f;
+}
+.ks-background-hover-primary-darker {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darker:hover {
+  background-color: #fb2800;
+}
+.ks-background-hover-primary-darker-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darker-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #fb2800;
+  -moz-box-shadow: inset 0 -5px 0 #fb2800;
+  box-shadow: inset 0 -5px 0 #fb2800;
+}
+.ks-background-hover-primary-darker-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darker-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #fb2800;
+  -moz-box-shadow: inset 0 5px 0 #fb2800;
+  box-shadow: inset 0 5px 0 #fb2800;
+}
+.ks-background-hover-primary-darkest {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darkest:hover {
+  background-color: #c82000;
+}
+.ks-background-hover-primary-darkest-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darkest-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #c82000;
+  -moz-box-shadow: inset 0 -5px 0 #c82000;
+  box-shadow: inset 0 -5px 0 #c82000;
+}
+.ks-background-hover-primary-darkest-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-darkest-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #c82000;
+  -moz-box-shadow: inset 0 5px 0 #c82000;
+  box-shadow: inset 0 5px 0 #c82000;
+}
+.ks-background-hover-primary-light {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-light:hover {
+  background-color: #ffa695;
+}
+.ks-background-hover-primary-light-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-light-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #ff502f;
+  -moz-box-shadow: inset 0 -5px 0 #ff502f;
+  box-shadow: inset 0 -5px 0 #ff502f;
+}
+.ks-background-hover-primary-light-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-light-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #ff502f;
+  -moz-box-shadow: inset 0 5px 0 #ff502f;
+  box-shadow: inset 0 5px 0 #ff502f;
+}
+.ks-background-hover-primary-lighter {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-lighter:hover {
+  background-color: #ffd1c8;
+}
+.ks-background-hover-primary-lighter-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-lighter-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #fb2800;
+  -moz-box-shadow: inset 0 -5px 0 #fb2800;
+  box-shadow: inset 0 -5px 0 #fb2800;
+}
+.ks-background-hover-primary-lighter-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-lighter-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #fb2800;
+  -moz-box-shadow: inset 0 5px 0 #fb2800;
+  box-shadow: inset 0 5px 0 #fb2800;
+}
+.ks-background-hover-primary-lightest {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-lightest:hover {
+  background-color: #fffcfb;
+}
+.ks-background-hover-primary-underline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-underline:hover {
+  -webkit-box-shadow: inset 0 -5px 0 #c82000;
+  -moz-box-shadow: inset 0 -5px 0 #c82000;
+  box-shadow: inset 0 -5px 0 #c82000;
+}
+.ks-background-hover-primary-upperline {
+  transition: 0.1s;
+}
+.ks-background-hover-primary-upperline:hover {
+  -webkit-box-shadow: inset 0 5px 0 #c82000;
+  -moz-box-shadow: inset 0 5px 0 #c82000;
+  box-shadow: inset 0 5px 0 #c82000;
 }
 
 .ks-padding-remove-top {
@@ -1045,10 +1276,6 @@ input[type=submit] {
 }
 .ks-border-turquoise-lightest {
   border-color: #cef8e7;
-}
-
-.ks-button-primary-hover-solid:hover {
-  background-color: #fb2800;
 }
 
 /*# sourceMappingURL=ksface.css.map */
