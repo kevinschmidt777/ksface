@@ -22,6 +22,26 @@
     @include borders;
     border-width: 10px;
   }
+  &-remove-horizontal {
+    border-right: none !important;
+    border-left: none !important;
+  }
+  &-remove-vertical {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+  &-remove-top {
+    border-top: none !important;
+  }
+  &-remove-right {
+    border-right: none !important;
+  }
+  &-remove-bottom {
+    border-bottom: none !important;
+  }
+  &-remove-left {
+    border-left: none !important;
+  }
   &-circle {
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
