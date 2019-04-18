@@ -3,18 +3,18 @@
 
 // Easily switch to dark mode (true/false).
 // Inverts all base color settings (Text, Default Background, etc. - Not primary, secondary nor specific colors).
-$darkmode: true !default;
+$darkmode: false !default;
 
 // Base typography
 $font-size: 18px !default;
 $font-color: #5b5b5b !default;
 
 // Headlines
-$headlines-font-color: #3e3e3e !default;
+$headlines-font-color: darken($font-color, 15%) !default;
 
 // Colors
 $color-primary: #ff7b62 !default;
-$color-secondary: #444242 !default;
+$color-secondary: #7d7979 !default;
 $color-default: #ffffff !default;
 $color-blue: #3a82ff !default;
 $color-red: #ff4843 !default;
@@ -24,3 +24,9 @@ $color-green: #49ef3e !default;
 $color-purple: #ae325f !default;
 $color-pink: #bd40b3 !default;
 $color-turquoise: #48e5a7 !default;
+
+// Color tints
+$tint-minimal: 1.5% !default;
+$tint-low: 10% !default;
+$tint-medium: 20% !default;
+$tint-high: 30% !default;

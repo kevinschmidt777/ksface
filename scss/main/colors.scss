@@ -1,72 +1,278 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
-// Background color shades
-@mixin dark($color) {
-  background-color: darken($color, 10%);
-}
-
-@mixin darker($color) {
-  background-color: darken($color, 20%);
-}
-
-@mixin darkest($color) {
-  background-color: darken($color, 35%);
-}
-
-@mixin light($color) {
-  background-color: lighten($color, 10%);
-}
-
-@mixin lighter($color) {
-  background-color: lighten($color, 20%);
-}
-
-@mixin lightest($color) {
-  background-color: lighten($color, 35%);
-}
-
-// Background color definitions
+// Background colors
 .ks-background-primary {
   background-color: $color-primary;
+  &-shade {
+    background-color: darken($color-primary, $tint-minimal);
+  }
   &-dark {
-    @include dark($color-primary);
+    background-color: darken($color-primary, $tint-low);
   }
   &-darker {
-    @include darker($color-primary);
+    background-color: darken($color-primary, $tint-medium);
   }
   &-darkest {
-    @include darkest($color-primary);
+    background-color: darken($color-primary, $tint-high);
   }
   &-light {
-    @include light($color-primary);
+    background-color: lighten($color-primary, $tint-low);
   }
   &-lighter {
-    @include lighter($color-primary);
+    background-color: lighten($color-primary, $tint-medium);
   }
   &-lightest {
-    @include lightest($color-primary);
+    background-color: lighten($color-primary, $tint-high);
   }
 }
 
 .ks-background-secondary {
   background-color: $color-secondary;
+  &-shade {
+    background-color: darken($color-secondary, $tint-minimal);
+  }
   &-dark {
-    @include dark($color-secondary);
+    background-color: darken($color-secondary, $tint-low);
   }
   &-darker {
-    @include darker($color-secondary);
+    background-color: darken($color-secondary, $tint-medium);
   }
   &-darkest {
-    @include darkest($color-secondary);
+    background-color: darken($color-secondary, $tint-high);
   }
   &-light {
-    @include light($color-secondary);
+    background-color: lighten($color-secondary, $tint-low);
   }
   &-lighter {
-    @include lighter($color-secondary);
+    background-color: lighten($color-secondary, $tint-medium);
   }
   &-lightest {
-    @include lightest($color-secondary);
+    background-color: lighten($color-secondary, $tint-high);
+  }
+}
+
+.ks-background-default {
+  background-color: $color-default;
+  &-shade {
+    background-color: darken($color-default, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-default, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-default, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-default, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-default, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-default, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-default, $tint-high);
+  }
+}
+
+.ks-background-blue {
+  background-color: $color-blue;
+  &-shade {
+    background-color: darken($color-blue, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-blue, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-blue, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-blue, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-blue, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-blue, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-blue, $tint-high);
+  }
+}
+
+.ks-background-red {
+  background-color: $color-red;
+  &-shade {
+    background-color: darken($color-red, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-red, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-red, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-red, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-red, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-red, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-red, $tint-high);
+  }
+}
+
+.ks-background-yellow {
+  background-color: $color-yellow;
+  &-shade {
+    background-color: darken($color-yellow, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-yellow, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-yellow, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-yellow, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-yellow, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-yellow, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-yellow, $tint-high);
+  }
+}
+
+.ks-background-orange {
+  background-color: $color-orange;
+  &-shade {
+    background-color: darken($color-orange, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-orange, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-orange, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-orange, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-orange, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-orange, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-orange, $tint-high);
+  }
+}
+
+.ks-background-green {
+  background-color: $color-green;
+  &-shade {
+    background-color: darken($color-green, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-green, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-green, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-green, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-green, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-green, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-green, $tint-high);
+  }
+}
+
+.ks-background-purple {
+  background-color: $color-purple;
+  &-shade {
+    background-color: darken($color-purple, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-purple, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-purple, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-purple, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-purple, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-purple, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-purple, $tint-high);
+  }
+}
+
+.ks-background-pink {
+  background-color: $color-pink;
+  &-shade {
+    background-color: darken($color-pink, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-pink, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-pink, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-pink, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-pink, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-pink, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-pink, $tint-high);
+  }
+}
+
+.ks-background-turquoise {
+  background-color: $color-turquoise;
+  &-shade {
+    background-color: darken($color-turquoise, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-turquoise, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-turquoise, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-turquoise, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-turquoise, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-turquoise, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-turquoise, $tint-high);
   }
 }
