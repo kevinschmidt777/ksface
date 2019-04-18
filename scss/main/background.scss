@@ -1,363 +1,704 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
+// Background styles
+@mixin underline($color1, $color2) {
+  background: -moz-linear-gradient(to bottom, $color1 89%, $color2 90%);
+  background: -webkit-linear-gradient(to bottom, $color1 89%, $color2 90%);
+  background: linear-gradient(to bottom, $color1 89%, $color2 90%);
+}
+
+@mixin underline-hover($color1, $color2) {
+  &:hover {
+    background: -moz-linear-gradient(to bottom, $color1 89%, $color2 90%);
+    background: -webkit-linear-gradient(to bottom, $color1 89%, $color2 90%);
+    background: linear-gradient(to bottom, $color1 89%, $color2 90%);
+  }
+}
+
 // Background colors
 .ks-background-primary {
   background-color: $color-primary;
   &-shade {
     background-color: darken($color-primary, $tint-minimal);
     &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
+      @include underline(
+        darken($color-primary, $tint-minimal),
+        darken($color-primary, $tint-low)
+      );
     }
   }
   &-dark {
     background-color: darken($color-primary, $tint-low);
     &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      @include underline(
+        darken($color-primary, $tint-low),
+        darken($color-primary, $tint-medium)
+      );
     }
   }
   &-darker {
     background-color: darken($color-primary, $tint-medium);
     &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      @include underline(
+        darken($color-primary, $tint-medium),
+        darken($color-primary, $tint-high)
+      );
     }
   }
   &-darkest {
     background-color: darken($color-primary, $tint-high);
-    &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-    }
   }
   &-light {
     background-color: lighten($color-primary, $tint-low);
     &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
+      @include underline(
+        lighten($color-primary, $tint-low),
+        lighten($color-primary, $tint-medium)
+      );
     }
   }
   &-lighter {
     background-color: lighten($color-primary, $tint-medium);
     &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
+      @include underline(
+        lighten($color-primary, $tint-medium),
+        lighten($color-primary, $tint-high)
+      );
     }
   }
   &-lightest {
     background-color: lighten($color-primary, $tint-high);
-    &-underline {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-    }
-    &-upperline {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-    }
+  }
+  &-underline {
+    @include underline($color-primary, darken($color-primary, $tint-low));
   }
 }
 .ks-background-secondary {
   background-color: $color-secondary;
   &-shade {
     background-color: darken($color-secondary, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-secondary, $tint-minimal),
+        darken($color-secondary, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-secondary, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-secondary, $tint-low),
+        darken($color-secondary, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-secondary, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-secondary, $tint-medium),
+        darken($color-secondary, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-secondary, $tint-high);
   }
   &-light {
     background-color: lighten($color-secondary, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-secondary, $tint-low),
+        lighten($color-secondary, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-secondary, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-secondary, $tint-medium),
+        lighten($color-secondary, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-secondary, $tint-high);
+  }
+  &-underline {
+    @include underline($color-secondary, darken($color-secondary, $tint-low));
   }
 }
 .ks-background-white {
   background-color: $color-white;
   &-shade {
     background-color: darken($color-white, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-white, $tint-minimal),
+        darken($color-white, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-white, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-white, $tint-low),
+        darken($color-white, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-white, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-white, $tint-medium),
+        darken($color-white, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-white, $tint-high);
   }
   &-light {
     background-color: lighten($color-white, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-white, $tint-low),
+        lighten($color-white, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-white, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-white, $tint-medium),
+        lighten($color-white, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-white, $tint-high);
+  }
+  &-underline {
+    @include underline($color-white, darken($color-white, $tint-low));
   }
 }
 .ks-background-black {
   background-color: $color-black;
   &-shade {
     background-color: darken($color-black, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-black, $tint-minimal),
+        darken($color-black, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-black, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-black, $tint-low),
+        darken($color-black, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-black, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-black, $tint-medium),
+        darken($color-black, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-black, $tint-high);
   }
   &-light {
     background-color: lighten($color-black, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-black, $tint-low),
+        lighten($color-black, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-black, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-black, $tint-medium),
+        lighten($color-black, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-black, $tint-high);
+  }
+  &-underline {
+    @include underline($color-black, darken($color-black, $tint-low));
   }
 }
 .ks-background-blue {
   background-color: $color-blue;
   &-shade {
     background-color: darken($color-blue, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-minimal),
+        darken($color-blue, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-blue, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-low),
+        darken($color-blue, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-blue, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-medium),
+        darken($color-blue, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-blue, $tint-high);
   }
   &-light {
     background-color: lighten($color-blue, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-blue, $tint-low),
+        lighten($color-blue, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-blue, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-blue, $tint-medium),
+        lighten($color-blue, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-blue, $tint-high);
+  }
+  &-underline {
+    @include underline($color-blue, darken($color-blue, $tint-low));
   }
 }
 .ks-background-red {
   background-color: $color-red;
   &-shade {
     background-color: darken($color-red, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-minimal),
+        darken($color-blue, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-red, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-low),
+        darken($color-blue, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-red, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-blue, $tint-medium),
+        darken($color-blue, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-red, $tint-high);
   }
   &-light {
     background-color: lighten($color-red, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-blue, $tint-low),
+        lighten($color-blue, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-red, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-blue, $tint-medium),
+        lighten($color-blue, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-red, $tint-high);
+  }
+  &-underline {
+    @include underline($color-red, darken($color-red, $tint-low));
   }
 }
 .ks-background-yellow {
   background-color: $color-yellow;
   &-shade {
     background-color: darken($color-yellow, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-yellow, $tint-minimal),
+        darken($color-yellow, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-yellow, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-yellow, $tint-low),
+        darken($color-yellow, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-yellow, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-yellow, $tint-medium),
+        darken($color-yellow, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-yellow, $tint-high);
   }
   &-light {
     background-color: lighten($color-yellow, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-yellow, $tint-low),
+        lighten($color-yellow, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-yellow, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-yellow, $tint-medium),
+        lighten($color-yellow, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-yellow, $tint-high);
+  }
+  &-underline {
+    @include underline($color-yellow, darken($color-yellow, $tint-low));
   }
 }
 .ks-background-orange {
   background-color: $color-orange;
   &-shade {
     background-color: darken($color-orange, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-orange, $tint-minimal),
+        darken($color-orange, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-orange, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-orange, $tint-low),
+        darken($color-orange, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-orange, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-orange, $tint-medium),
+        darken($color-orange, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-orange, $tint-high);
   }
   &-light {
     background-color: lighten($color-orange, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-orange, $tint-low),
+        lighten($color-orange, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-orange, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-orange, $tint-medium),
+        lighten($color-orange, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-orange, $tint-high);
+  }
+  &-underline {
+    @include underline($color-orange, darken($color-orange, $tint-low));
   }
 }
 .ks-background-green {
   background-color: $color-green;
   &-shade {
     background-color: darken($color-green, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-green, $tint-minimal),
+        darken($color-green, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-green, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-green, $tint-low),
+        darken($color-green, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-green, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-green, $tint-medium),
+        darken($color-green, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-green, $tint-high);
   }
   &-light {
     background-color: lighten($color-green, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-green, $tint-low),
+        lighten($color-green, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-green, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-green, $tint-medium),
+        lighten($color-green, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-green, $tint-high);
+  }
+  &-underline {
+    @include underline($color-green, darken($color-green, $tint-low));
   }
 }
 .ks-background-purple {
   background-color: $color-purple;
   &-shade {
     background-color: darken($color-purple, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-purple, $tint-minimal),
+        darken($color-purple, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-purple, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-purple, $tint-low),
+        darken($color-purple, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-purple, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-purple, $tint-medium),
+        darken($color-purple, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-purple, $tint-high);
   }
   &-light {
     background-color: lighten($color-purple, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-purple, $tint-low),
+        lighten($color-purple, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-purple, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-purple, $tint-medium),
+        lighten($color-purple, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-purple, $tint-high);
+  }
+  &-underline {
+    @include underline($color-purple, darken($color-purple, $tint-low));
   }
 }
 .ks-background-pink {
   background-color: $color-pink;
   &-shade {
     background-color: darken($color-pink, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-pink, $tint-minimal),
+        darken($color-pink, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-pink, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-pink, $tint-low),
+        darken($color-pink, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-pink, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-pink, $tint-medium),
+        darken($color-pink, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-pink, $tint-high);
   }
   &-light {
     background-color: lighten($color-pink, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-pink, $tint-low),
+        lighten($color-pink, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-pink, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-pink, $tint-medium),
+        lighten($color-pink, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-pink, $tint-high);
+  }
+  &-underline {
+    @include underline($color-pink, darken($color-pink, $tint-low));
   }
 }
 .ks-background-turquoise {
   background-color: $color-turquoise;
   &-shade {
     background-color: darken($color-turquoise, $tint-minimal);
+    &-underline {
+      @include underline(
+        darken($color-turquoise, $tint-minimal),
+        darken($color-turquoise, $tint-low)
+      );
+    }
   }
   &-dark {
     background-color: darken($color-turquoise, $tint-low);
+    &-underline {
+      @include underline(
+        darken($color-turquoise, $tint-low),
+        darken($color-turquoise, $tint-medium)
+      );
+    }
   }
   &-darker {
     background-color: darken($color-turquoise, $tint-medium);
+    &-underline {
+      @include underline(
+        darken($color-turquoise, $tint-medium),
+        darken($color-turquoise, $tint-high)
+      );
+    }
   }
   &-darkest {
     background-color: darken($color-turquoise, $tint-high);
   }
   &-light {
     background-color: lighten($color-turquoise, $tint-low);
+    &-underline {
+      @include underline(
+        lighten($color-turquoise, $tint-low),
+        lighten($color-turquoise, $tint-medium)
+      );
+    }
   }
   &-lighter {
     background-color: lighten($color-turquoise, $tint-medium);
+    &-underline {
+      @include underline(
+        lighten($color-turquoise, $tint-medium),
+        lighten($color-turquoise, $tint-high)
+      );
+    }
   }
   &-lightest {
     background-color: lighten($color-turquoise, $tint-high);
+  }
+  &-underline {
+    @include underline($color-turquoise, darken($color-turquoise, $tint-low));
   }
 }
 
@@ -372,43 +713,11 @@
     &:hover {
       background-color: darken($color-primary, $tint-minimal);
     }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-minimal);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-minimal);
-      }
-    }
   }
   &-dark {
     transition: $transition-timer;
     &:hover {
       background-color: darken($color-primary, $tint-low);
-    }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      }
     }
   }
   &-darker {
@@ -416,43 +725,11 @@
     &:hover {
       background-color: darken($color-primary, $tint-medium);
     }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      }
-    }
   }
   &-darkest {
     transition: $transition-timer;
     &:hover {
       background-color: darken($color-primary, $tint-high);
-    }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      }
     }
   }
   &-light {
@@ -460,43 +737,11 @@
     &:hover {
       background-color: lighten($color-primary, $tint-low);
     }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-low);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-low);
-      }
-    }
   }
   &-lighter {
     transition: $transition-timer;
     &:hover {
       background-color: lighten($color-primary, $tint-medium);
-    }
-    &-underline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-        -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-        box-shadow: inset 0 -5px 0 darken($color-primary, $tint-medium);
-      }
-    }
-    &-upperline {
-      transition: $transition-timer;
-      &:hover {
-        -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-        -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-        box-shadow: inset 0 5px 0 darken($color-primary, $tint-medium);
-      }
     }
   }
   &-lightest {
@@ -506,19 +751,6 @@
     }
   }
   &-underline {
-    transition: $transition-timer;
-    &:hover {
-      -webkit-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 -5px 0 darken($color-primary, $tint-high);
-    }
-  }
-  &-upperline {
-    transition: $transition-timer;
-    &:hover {
-      -webkit-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      -moz-box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-      box-shadow: inset 0 5px 0 darken($color-primary, $tint-high);
-    }
+    @include underline-hover($color-primary, darken($color-primary, $tint-low));
   }
 }
