@@ -2,4 +2,11 @@
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
 .ks-button {
+  &-primary {
+    &-hover-solid {
+      &:hover {
+        background-color: darken($color-primary, 20%);
+      }
+    }
+  }
 }
