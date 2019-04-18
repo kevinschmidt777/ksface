@@ -9,6 +9,15 @@ $darkmode: false !default;
 $font-size: 18px !default;
 $font-color: #5b5b5b !default;
 
+// Responsive breakpoints
+$breakpoint-phone: 640px !default;
+$breakpoint-tablet: 960px !default;
+$breakpoint-notebook: 1200px !default;
+$breakpoint-desktop: 1600px !default;
+
+// Box max. width
+$box-width: 1400px !default;
+
 // Colors
 $color-primary: #ff7b62 !default;
 $color-secondary: #7d7979 !default;
@@ -34,11 +43,6 @@ $space-low: 10px !default;
 $space-medium: 25px !default;
 $space-high: 50px !default;
 
-// Responsive breakpoints
-$breakpoint-phone: 640px !default;
-$breakpoint-tablet: 960px !default;
-$breakpoint-notebook: 1200px !default;
-$breakpoint-desktop: 1600px !default;
-
-// Box max. width
-$box-width: 1400px !default;
+// Border radius
+$border-circle: 100% !default;
+$border-rounded: 3px !default;

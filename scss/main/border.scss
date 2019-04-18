@@ -1,0 +1,35 @@
+// KSFace v1.0.0 - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+@mixin borders {
+  border-style: solid;
+}
+
+.ks-border {
+  &-minimal {
+    @include borders;
+    border-width: 1px;
+  }
+  &-small {
+    @include borders;
+    border-width: 3px;
+  }
+  &-medium {
+    @include borders;
+    border-width: 5px;
+  }
+  &-large {
+    @include borders;
+    border-width: 10px;
+  }
+  &-circle {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+  }
+  &-rounded {
+    -webkit-border-radius: $border-rounded;
+    -moz-border-radius: $border-rounded;
+    border-radius: $border-rounded;
+  }
+}

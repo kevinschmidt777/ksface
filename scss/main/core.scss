@@ -60,10 +60,4 @@ p {
   margin: 0;
   padding-top: $space-low;
   padding-bottom: $space-low;
-  &:first-child {
-    padding-top: 0 !important;
-  }
-  &:last-child {
-    padding-bottom: 0 !important;
-  }
 }
