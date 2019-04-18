@@ -50,28 +50,52 @@
     background-color: lighten($color-secondary, $tint-high);
   }
 }
-.ks-background-default {
-  background-color: $color-default;
+.ks-background-white {
+  background-color: $color-white;
   &-shade {
-    background-color: darken($color-default, $tint-minimal);
+    background-color: darken($color-white, $tint-minimal);
   }
   &-dark {
-    background-color: darken($color-default, $tint-low);
+    background-color: darken($color-white, $tint-low);
   }
   &-darker {
-    background-color: darken($color-default, $tint-medium);
+    background-color: darken($color-white, $tint-medium);
   }
   &-darkest {
-    background-color: darken($color-default, $tint-high);
+    background-color: darken($color-white, $tint-high);
   }
   &-light {
-    background-color: lighten($color-default, $tint-low);
+    background-color: lighten($color-white, $tint-low);
   }
   &-lighter {
-    background-color: lighten($color-default, $tint-medium);
+    background-color: lighten($color-white, $tint-medium);
   }
   &-lightest {
-    background-color: lighten($color-default, $tint-high);
+    background-color: lighten($color-white, $tint-high);
+  }
+}
+.ks-background-black {
+  background-color: $color-black;
+  &-shade {
+    background-color: darken($color-black, $tint-minimal);
+  }
+  &-dark {
+    background-color: darken($color-black, $tint-low);
+  }
+  &-darker {
+    background-color: darken($color-black, $tint-medium);
+  }
+  &-darkest {
+    background-color: darken($color-black, $tint-high);
+  }
+  &-light {
+    background-color: lighten($color-black, $tint-low);
+  }
+  &-lighter {
+    background-color: lighten($color-black, $tint-medium);
+  }
+  &-lightest {
+    background-color: lighten($color-black, $tint-high);
   }
 }
 .ks-background-blue {
@@ -316,28 +340,52 @@
     color: lighten($color-secondary, $tint-high);
   }
 }
-.ks-text-default {
-  color: $color-default;
+.ks-text-white {
+  color: $color-white;
   &-shade {
-    color: darken($color-default, $tint-minimal);
+    color: darken($color-white, $tint-minimal);
   }
   &-dark {
-    color: darken($color-default, $tint-low);
+    color: darken($color-white, $tint-low);
   }
   &-darker {
-    color: darken($color-default, $tint-medium);
+    color: darken($color-white, $tint-medium);
   }
   &-darkest {
-    color: darken($color-default, $tint-high);
+    color: darken($color-white, $tint-high);
   }
   &-light {
-    color: lighten($color-default, $tint-low);
+    color: lighten($color-white, $tint-low);
   }
   &-lighter {
-    color: lighten($color-default, $tint-medium);
+    color: lighten($color-white, $tint-medium);
   }
   &-lightest {
-    color: lighten($color-default, $tint-high);
+    color: lighten($color-white, $tint-high);
+  }
+}
+.ks-text-black {
+  color: $color-black;
+  &-shade {
+    color: darken($color-black, $tint-minimal);
+  }
+  &-dark {
+    color: darken($color-black, $tint-low);
+  }
+  &-darker {
+    color: darken($color-black, $tint-medium);
+  }
+  &-darkest {
+    color: darken($color-black, $tint-high);
+  }
+  &-light {
+    color: lighten($color-black, $tint-low);
+  }
+  &-lighter {
+    color: lighten($color-black, $tint-medium);
+  }
+  &-lightest {
+    color: lighten($color-black, $tint-high);
   }
 }
 .ks-text-blue {
@@ -582,28 +630,28 @@
     border-color: lighten($color-secondary, $tint-high);
   }
 }
-.ks-border-default {
-  border-color: $color-default;
+.ks-border-white {
+  border-color: $color-white;
   &-shade {
-    border-color: darken($color-default, $tint-minimal);
+    border-color: darken($color-white, $tint-minimal);
   }
   &-dark {
-    border-color: darken($color-default, $tint-low);
+    border-color: darken($color-white, $tint-low);
   }
   &-darker {
-    border-color: darken($color-default, $tint-medium);
+    border-color: darken($color-white, $tint-medium);
   }
   &-darkest {
-    border-color: darken($color-default, $tint-high);
+    border-color: darken($color-white, $tint-high);
   }
   &-light {
-    border-color: lighten($color-default, $tint-low);
+    border-color: lighten($color-white, $tint-low);
   }
   &-lighter {
-    border-color: lighten($color-default, $tint-medium);
+    border-color: lighten($color-white, $tint-medium);
   }
   &-lightest {
-    border-color: lighten($color-default, $tint-high);
+    border-color: lighten($color-white, $tint-high);
   }
 }
 .ks-border-blue {

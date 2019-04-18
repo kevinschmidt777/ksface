@@ -24,23 +24,13 @@ select {
 body {
   font-size: $font-size;
   font-family: 'Source Sans Pro', sans-serif;
-
-  @if $darkmode == false {
-    color: $font-color;
-    background-color: $color-default;
-  } @else {
-    color: invert($font-color, 100%);
-    background-color: invert($color-default, 100%);
-  }
+  color: $font-color;
+  background-color: $color-white;
 }
 
 // Headlines
 @mixin headlines {
-  @if $darkmode == false {
-    color: darken($font-color, 15%);
-  } @else {
-    color: invert(darken($font-color, 15%));
-  }
+  color: darken($font-color, 15%);
   margin-top: $space-low;
   margin-bottom: $space-low;
   &:first-child {

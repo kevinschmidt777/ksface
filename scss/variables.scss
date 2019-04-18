@@ -1,25 +1,9 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
-// Switch to dark mode (true/false).
-// Inverts base color settings (Font color, base background, etc. - Not primary, secondary nor specific colors).
-$darkmode: false !default;
-
-// Base typography
-$font-size: 18px !default;
-$font-color: #5b5b5b !default;
-
-// Responsive breakpoints
-$breakpoint-phone: 640px !default;
-$breakpoint-tablet: 960px !default;
-$breakpoint-notebook: 1200px !default;
-$breakpoint-desktop: 1600px !default;
-
-// Box max. width
-$box-width: 1400px !default;
-
 // Colors
-$color-default: #ffffff !default;
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
 $color-primary: #ff7b62 !default;
 $color-secondary: #7d7979 !default;
 $color-blue: #3a82ff !default;
@@ -30,6 +14,20 @@ $color-green: #49ef3e !default;
 $color-purple: #ae325f !default;
 $color-pink: #bd40b3 !default;
 $color-turquoise: #48e5a7 !default;
+
+// Base typography
+$font-size: 18px !default;
+$font-color: #5b5b5b !default;
+$background-color: $color-white !default;
+
+// Responsive breakpoints
+$breakpoint-phone: 640px !default;
+$breakpoint-tablet: 960px !default;
+$breakpoint-notebook: 1200px !default;
+$breakpoint-desktop: 1600px !default;
+
+// Box max. width
+$box-width: 1400px !default;
 
 // Color tints
 $tint-minimal: 1.5% !default;

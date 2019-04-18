@@ -102,29 +102,54 @@ input[type=submit] {
   background-color: #c8c7c7;
 }
 
-.ks-background-default {
+.ks-background-white {
   background-color: #ffffff;
 }
-.ks-background-default-shade {
+.ks-background-white-shade {
   background-color: #fbfbfb;
 }
-.ks-background-default-dark {
+.ks-background-white-dark {
   background-color: #e6e6e6;
 }
-.ks-background-default-darker {
+.ks-background-white-darker {
   background-color: #cccccc;
 }
-.ks-background-default-darkest {
+.ks-background-white-darkest {
   background-color: #b3b3b3;
 }
-.ks-background-default-light {
+.ks-background-white-light {
   background-color: white;
 }
-.ks-background-default-lighter {
+.ks-background-white-lighter {
   background-color: white;
 }
-.ks-background-default-lightest {
+.ks-background-white-lightest {
   background-color: white;
+}
+
+.ks-background-black {
+  background-color: #000000;
+}
+.ks-background-black-shade {
+  background-color: black;
+}
+.ks-background-black-dark {
+  background-color: black;
+}
+.ks-background-black-darker {
+  background-color: black;
+}
+.ks-background-black-darkest {
+  background-color: black;
+}
+.ks-background-black-light {
+  background-color: #1a1a1a;
+}
+.ks-background-black-lighter {
+  background-color: #333333;
+}
+.ks-background-black-lightest {
+  background-color: #4d4d4d;
 }
 
 .ks-background-blue {
@@ -377,29 +402,54 @@ input[type=submit] {
   color: #c8c7c7;
 }
 
-.ks-text-default {
+.ks-text-white {
   color: #ffffff;
 }
-.ks-text-default-shade {
+.ks-text-white-shade {
   color: #fbfbfb;
 }
-.ks-text-default-dark {
+.ks-text-white-dark {
   color: #e6e6e6;
 }
-.ks-text-default-darker {
+.ks-text-white-darker {
   color: #cccccc;
 }
-.ks-text-default-darkest {
+.ks-text-white-darkest {
   color: #b3b3b3;
 }
-.ks-text-default-light {
+.ks-text-white-light {
   color: white;
 }
-.ks-text-default-lighter {
+.ks-text-white-lighter {
   color: white;
 }
-.ks-text-default-lightest {
+.ks-text-white-lightest {
   color: white;
+}
+
+.ks-text-black {
+  color: #000000;
+}
+.ks-text-black-shade {
+  color: black;
+}
+.ks-text-black-dark {
+  color: black;
+}
+.ks-text-black-darker {
+  color: black;
+}
+.ks-text-black-darkest {
+  color: black;
+}
+.ks-text-black-light {
+  color: #1a1a1a;
+}
+.ks-text-black-lighter {
+  color: #333333;
+}
+.ks-text-black-lightest {
+  color: #4d4d4d;
 }
 
 .ks-text-blue {
@@ -652,28 +702,28 @@ input[type=submit] {
   border-color: #c8c7c7;
 }
 
-.ks-border-default {
+.ks-border-white {
   border-color: #ffffff;
 }
-.ks-border-default-shade {
+.ks-border-white-shade {
   border-color: #fbfbfb;
 }
-.ks-border-default-dark {
+.ks-border-white-dark {
   border-color: #e6e6e6;
 }
-.ks-border-default-darker {
+.ks-border-white-darker {
   border-color: #cccccc;
 }
-.ks-border-default-darkest {
+.ks-border-white-darkest {
   border-color: #b3b3b3;
 }
-.ks-border-default-light {
+.ks-border-white-light {
   border-color: white;
 }
-.ks-border-default-lighter {
+.ks-border-white-lighter {
   border-color: white;
 }
-.ks-border-default-lightest {
+.ks-border-white-lightest {
   border-color: white;
 }
 
