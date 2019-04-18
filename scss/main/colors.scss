@@ -1,0 +1,50 @@
+// KSFace v1.0.0 - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+// Background color shades
+@mixin dark($color) {
+  background-color: darken($color, 10%);
+}
+
+@mixin darker($color) {
+  background-color: darken($color, 20%);
+}
+
+@mixin darkest($color) {
+  background-color: darken($color, 35%);
+}
+
+@mixin light($color) {
+  background-color: lighten($color, 10%);
+}
+
+@mixin lighter($color) {
+  background-color: lighten($color, 20%);
+}
+
+@mixin lightest($color) {
+  background-color: lighten($color, 35%);
+}
+
+// Background color definitions
+.ks-background-primary {
+  background-color: $color-primary;
+  &-dark {
+    @include dark($color-primary);
+  }
+  &-darker {
+    @include darker($color-primary);
+  }
+  &-darkest {
+    @include darkest($color-primary);
+  }
+  &-light {
+    @include light($color-primary);
+  }
+  &-lighter {
+    @include lighter($color-primary);
+  }
+  &-lightest {
+    @include lightest($color-primary);
+  }
+}

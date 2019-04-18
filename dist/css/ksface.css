@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5b5b5b;
+}
+
+h1 {
+  color: #000;
+  font-size: 3rem;
+}
+
+.ks-background-primary {
+  background-color: #ff7b62;
+}
+.ks-background-primary-dark {
+  background-color: #ff502f;
+}
+.ks-background-primary-darker {
+  background-color: #fb2800;
+}
+.ks-background-primary-darkest {
+  background-color: #af1c00;
+}
+.ks-background-primary-light {
+  background-color: #ffa695;
+}
+.ks-background-primary-lighter {
+  background-color: #ffd1c8;
+}
+.ks-background-primary-lightest {
+  background-color: white;
+}
+
+/*# sourceMappingURL=ksface.css.map */
