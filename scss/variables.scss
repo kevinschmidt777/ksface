@@ -33,3 +33,12 @@ $space-minimal: 2px !default;
 $space-low: 10px !default;
 $space-medium: 25px !default;
 $space-high: 50px !default;
+
+// Responsive breakpoints
+$breakpoint-phone: 640px !default;
+$breakpoint-tablet: 960px !default;
+$breakpoint-notebook: 1200px !default;
+$breakpoint-desktop: 1600px !default;
+
+// Box max. width
+$box-width: 1400px !default;

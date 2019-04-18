@@ -41,6 +41,8 @@ body {
   } @else {
     color: invert(darken($font-color, 15%));
   }
+  margin-top: $space-low;
+  margin-bottom: $space-low;
   &:first-child {
     margin-top: 0 !important;
   }

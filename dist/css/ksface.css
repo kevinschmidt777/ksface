@@ -23,6 +23,8 @@ body {
 
 h1 {
   color: #353535;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 3rem;
 }
 h1:first-child {
@@ -658,6 +660,27 @@ p:last-child {
 }
 .ks-margin-high {
   margin: 50px 63px;
+}
+
+.ks-box {
+  box-sizing: content-box;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 960px) {
+  .ks-box {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .ks-box {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 /*# sourceMappingURL=ksface.css.map */

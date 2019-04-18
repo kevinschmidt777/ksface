@@ -1,0 +1,23 @@
+// KSFace v1.0.0 - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+// Responsive box container
+.ks-box {
+  box-sizing: content-box;
+  max-width: $box-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: $space-low;
+  padding-right: $space-low;
+
+  @media (min-width: $breakpoint-tablet) {
+    padding-left: $space-medium;
+    padding-right: $space-medium;
+  }
+
+  @media (min-width: $breakpoint-notebook) {
+    padding-left: $space-high;
+    padding-right: $space-high;
+  }
+}
