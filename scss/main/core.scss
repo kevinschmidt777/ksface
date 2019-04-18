@@ -4,7 +4,7 @@
 // Google Web Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-// Global paddings and margins reset
+// Padding and margin reset for some elements
 html,
 body,
 h1,
@@ -15,13 +15,12 @@ h5,
 h6,
 input,
 textarea,
-select,
-p {
+select {
   padding: 0;
   margin: 0;
 }
 
-// Base settings
+// Body settings
 body {
   font-size: $font-size;
   font-family: 'Source Sans Pro', sans-serif;
@@ -42,8 +41,27 @@ body {
   } @else {
     color: invert(darken($font-color, 15%));
   }
+  &:first-child {
+    margin-top: 0 !important;
+  }
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
 }
 h1 {
   @include headlines;
   font-size: 3rem;
+}
+
+// Paragraphs
+p {
+  margin: 0;
+  padding-top: $space-low;
+  padding-bottom: $space-low;
+  &:first-child {
+    padding-top: 0 !important;
+  }
+  &:last-child {
+    padding-bottom: 0 !important;
+  }
 }
