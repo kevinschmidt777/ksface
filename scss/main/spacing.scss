@@ -35,6 +35,9 @@
   &-large {
     padding: $space-high round($space-high * 1.75);
   }
+  &-ultra {
+    padding: $space-ultra round($space-ultra * 1.75);
+  }
 }
 
 // Margin
@@ -70,5 +73,8 @@
   }
   &-large {
     margin: $space-high round($space-high * 1.75);
+  }
+  &-ultra {
+    margin: $space-ultra round($space-ultra * 1.75);
   }
 }

@@ -61,3 +61,16 @@ p {
   padding-top: $space-low;
   padding-bottom: $space-low;
 }
+
+// Buttons
+button,
+input[type='button'],
+input[type='submit'] {
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: $font-color;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}

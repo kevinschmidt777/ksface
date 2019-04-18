@@ -26,7 +26,6 @@
     background-color: lighten($color-primary, $tint-high);
   }
 }
-
 .ks-background-secondary {
   background-color: $color-secondary;
   &-shade {
@@ -51,7 +50,6 @@
     background-color: lighten($color-secondary, $tint-high);
   }
 }
-
 .ks-background-default {
   background-color: $color-default;
   &-shade {
@@ -76,7 +74,6 @@
     background-color: lighten($color-default, $tint-high);
   }
 }
-
 .ks-background-blue {
   background-color: $color-blue;
   &-shade {
@@ -101,7 +98,6 @@
     background-color: lighten($color-blue, $tint-high);
   }
 }
-
 .ks-background-red {
   background-color: $color-red;
   &-shade {
@@ -126,7 +122,6 @@
     background-color: lighten($color-red, $tint-high);
   }
 }
-
 .ks-background-yellow {
   background-color: $color-yellow;
   &-shade {
@@ -151,7 +146,6 @@
     background-color: lighten($color-yellow, $tint-high);
   }
 }
-
 .ks-background-orange {
   background-color: $color-orange;
   &-shade {
@@ -176,7 +170,6 @@
     background-color: lighten($color-orange, $tint-high);
   }
 }
-
 .ks-background-green {
   background-color: $color-green;
   &-shade {
@@ -201,7 +194,6 @@
     background-color: lighten($color-green, $tint-high);
   }
 }
-
 .ks-background-purple {
   background-color: $color-purple;
   &-shade {
@@ -226,7 +218,6 @@
     background-color: lighten($color-purple, $tint-high);
   }
 }
-
 .ks-background-pink {
   background-color: $color-pink;
   &-shade {
@@ -251,7 +242,6 @@
     background-color: lighten($color-pink, $tint-high);
   }
 }
-
 .ks-background-turquoise {
   background-color: $color-turquoise;
   &-shade {
@@ -302,7 +292,6 @@
     color: lighten($color-primary, $tint-high);
   }
 }
-
 .ks-text-secondary {
   color: $color-secondary;
   &-shade {
@@ -327,7 +316,6 @@
     color: lighten($color-secondary, $tint-high);
   }
 }
-
 .ks-text-default {
   color: $color-default;
   &-shade {
@@ -352,7 +340,6 @@
     color: lighten($color-default, $tint-high);
   }
 }
-
 .ks-text-blue {
   color: $color-blue;
   &-shade {
@@ -377,7 +364,6 @@
     color: lighten($color-blue, $tint-high);
   }
 }
-
 .ks-text-red {
   color: $color-red;
   &-shade {
@@ -402,7 +388,6 @@
     color: lighten($color-red, $tint-high);
   }
 }
-
 .ks-text-yellow {
   color: $color-yellow;
   &-shade {
@@ -427,7 +412,6 @@
     color: lighten($color-yellow, $tint-high);
   }
 }
-
 .ks-text-orange {
   color: $color-orange;
   &-shade {
@@ -452,7 +436,6 @@
     color: lighten($color-orange, $tint-high);
   }
 }
-
 .ks-text-green {
   color: $color-green;
   &-shade {
@@ -477,7 +460,6 @@
     color: lighten($color-green, $tint-high);
   }
 }
-
 .ks-text-purple {
   color: $color-purple;
   &-shade {
@@ -502,7 +484,6 @@
     color: lighten($color-purple, $tint-high);
   }
 }
-
 .ks-text-pink {
   color: $color-pink;
   &-shade {
@@ -527,7 +508,6 @@
     color: lighten($color-pink, $tint-high);
   }
 }
-
 .ks-text-turquoise {
   color: $color-turquoise;
   &-shade {
@@ -578,7 +558,6 @@
     border-color: lighten($color-primary, $tint-high);
   }
 }
-
 .ks-border-secondary {
   border-color: $color-secondary;
   &-shade {
@@ -603,7 +582,6 @@
     border-color: lighten($color-secondary, $tint-high);
   }
 }
-
 .ks-border-default {
   border-color: $color-default;
   &-shade {
@@ -628,7 +606,6 @@
     border-color: lighten($color-default, $tint-high);
   }
 }
-
 .ks-border-blue {
   border-color: $color-blue;
   &-shade {
@@ -653,7 +630,6 @@
     border-color: lighten($color-blue, $tint-high);
   }
 }
-
 .ks-border-red {
   border-color: $color-red;
   &-shade {
@@ -678,7 +654,6 @@
     border-color: lighten($color-red, $tint-high);
   }
 }
-
 .ks-border-yellow {
   border-color: $color-yellow;
   &-shade {
@@ -703,7 +678,6 @@
     border-color: lighten($color-yellow, $tint-high);
   }
 }
-
 .ks-border-orange {
   border-color: $color-orange;
   &-shade {
@@ -728,7 +702,6 @@
     border-color: lighten($color-orange, $tint-high);
   }
 }
-
 .ks-border-green {
   border-color: $color-green;
   &-shade {
@@ -753,7 +726,6 @@
     border-color: lighten($color-green, $tint-high);
   }
 }
-
 .ks-border-purple {
   border-color: $color-purple;
   &-shade {
@@ -778,7 +750,6 @@
     border-color: lighten($color-purple, $tint-high);
   }
 }
-
 .ks-border-pink {
   border-color: $color-pink;
   &-shade {
@@ -803,7 +774,6 @@
     border-color: lighten($color-pink, $tint-high);
   }
 }
-
 .ks-border-turquoise {
   border-color: $color-turquoise;
   &-shade {

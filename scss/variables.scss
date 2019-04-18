@@ -19,9 +19,9 @@ $breakpoint-desktop: 1600px !default;
 $box-width: 1400px !default;
 
 // Colors
+$color-default: #ffffff !default;
 $color-primary: #ff7b62 !default;
 $color-secondary: #7d7979 !default;
-$color-default: #ffffff !default;
 $color-blue: #3a82ff !default;
 $color-red: #ff4843 !default;
 $color-yellow: #fff02e !default;
@@ -40,8 +40,9 @@ $tint-high: 30% !default;
 // Spacing standards
 $space-minimal: 2px !default;
 $space-low: 10px !default;
-$space-medium: 25px !default;
-$space-high: 50px !default;
+$space-medium: 35px !default;
+$space-high: 70px !default;
+$space-ultra: 100px !default;
 
 // Border radius
 $border-circle: 100% !default;

@@ -40,6 +40,18 @@ p {
   padding-bottom: 10px;
 }
 
+button,
+input[type=button],
+input[type=submit] {
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+  color: #5b5b5b;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
 .ks-background-primary {
   background-color: #ff7b62;
 }
@@ -892,10 +904,13 @@ p {
   padding: 10px 18px;
 }
 .ks-padding-medium {
-  padding: 25px 44px;
+  padding: 35px 61px;
 }
 .ks-padding-large {
-  padding: 50px 88px;
+  padding: 70px 123px;
+}
+.ks-padding-ultra {
+  padding: 100px 175px;
 }
 
 .ks-margin-remove-top {
@@ -925,10 +940,13 @@ p {
   margin: 10px 18px;
 }
 .ks-margin-medium {
-  margin: 25px 44px;
+  margin: 35px 61px;
 }
 .ks-margin-large {
-  margin: 50px 88px;
+  margin: 70px 123px;
+}
+.ks-margin-ultra {
+  margin: 100px 175px;
 }
 
 .ks-box {
@@ -941,14 +959,14 @@ p {
 }
 @media (min-width: 960px) {
   .ks-box {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 @media (min-width: 1200px) {
   .ks-box {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
