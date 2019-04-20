@@ -56,8 +56,16 @@
   &-lightest {
     background-color: lighten($color-primary, $tint-high);
   }
+
   &-underline {
     @include underline($color-primary);
+  }
+
+  &-gradient {
+    background-color: $color-primary;
+    $gradient-top-left: darken(saturate(adjust-hue($color-primary, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-primary, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-primary 71%, $gradient-bottom-right 100%);
   }
 }
 .ks-background-secondary {
@@ -101,6 +109,12 @@
   &-underline {
     @include underline($color-secondary);
   }
+  &-gradient {
+    background-color: $color-secondary;
+    $gradient-top-left: darken(saturate(adjust-hue($color-secondary, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-secondary, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-secondary 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-white {
   background-color: $color-white;
@@ -142,6 +156,12 @@
   }
   &-underline {
     @include underline($color-white);
+  }
+  &-gradient {
+    background-color: $color-white;
+    $gradient-top-left: darken(saturate(adjust-hue($color-white, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-white, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-white 71%, $gradient-bottom-right 100%);
   }
 }
 .ks-background-black {
@@ -185,6 +205,12 @@
   &-underline {
     @include underline($color-black);
   }
+  &-gradient {
+    background-color: $color-black;
+    $gradient-top-left: darken(saturate(adjust-hue($color-black, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-black, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-black 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-blue {
   background-color: $color-blue;
@@ -226,6 +252,12 @@
   }
   &-underline {
     @include underline($color-blue);
+  }
+  &-gradient {
+    background-color: $color-blue;
+    $gradient-top-left: darken(saturate(adjust-hue($color-blue, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-blue, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-blue 71%, $gradient-bottom-right 100%);
   }
 }
 .ks-background-red {
@@ -269,6 +301,12 @@
   &-underline {
     @include underline($color-red);
   }
+  &-gradient {
+    background-color: $color-red;
+    $gradient-top-left: darken(saturate(adjust-hue($color-red, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-red, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-red 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-yellow {
   background-color: $color-yellow;
@@ -310,6 +348,12 @@
   }
   &-underline {
     @include underline($color-yellow);
+  }
+  &-gradient {
+    background-color: $color-yellow;
+    $gradient-top-left: darken(saturate(adjust-hue($color-yellow, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-yellow, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-yellow 71%, $gradient-bottom-right 100%);
   }
 }
 .ks-background-orange {
@@ -353,6 +397,12 @@
   &-underline {
     @include underline($color-orange);
   }
+  &-gradient {
+    background-color: $color-orange;
+    $gradient-top-left: darken(saturate(adjust-hue($color-orange, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-orange, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-orange 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-green {
   background-color: $color-green;
@@ -394,6 +444,12 @@
   }
   &-underline {
     @include underline($color-green);
+  }
+  &-gradient {
+    background-color: $color-green;
+    $gradient-top-left: darken(saturate(adjust-hue($color-green, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-green, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-green 71%, $gradient-bottom-right 100%);
   }
 }
 .ks-background-purple {
@@ -437,6 +493,12 @@
   &-underline {
     @include underline($color-purple);
   }
+  &-gradient {
+    background-color: $color-purple;
+    $gradient-top-left: darken(saturate(adjust-hue($color-purple, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-purple, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-purple 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-pink {
   background-color: $color-pink;
@@ -479,6 +541,12 @@
   &-underline {
     @include underline($color-pink);
   }
+  &-gradient {
+    background-color: $color-pink;
+    $gradient-top-left: darken(saturate(adjust-hue($color-pink, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-pink, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-pink 71%, $gradient-bottom-right 100%);
+  }
 }
 .ks-background-turquoise {
   background-color: $color-turquoise;
@@ -520,6 +588,12 @@
   }
   &-underline {
     @include underline($color-turquoise);
+  }
+  &-gradient {
+    background-color: $color-turquoise;
+    $gradient-top-left: darken(saturate(adjust-hue($color-turquoise, -10deg), 10%), 10%);
+    $gradient-bottom-right: lighten(saturate(adjust-hue($color-turquoise, 10deg), 5%), 5%);
+    background-image: linear-gradient(141deg, $gradient-top-left 0%, $color-turquoise 71%, $gradient-bottom-right 100%);
   }
 }
 

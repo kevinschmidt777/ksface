@@ -290,3 +290,24 @@
     color: lighten($color-turquoise, $tint-high);
   }
 }
+
+// Text manipulation
+.ks-text-uppercase {
+  text-transform: uppercase;
+}
+
+.ks-text-lowercase {
+  text-transform: lowercase;
+}
+
+.ks-text-left {
+  text-align: left;
+}
+
+.ks-text-right {
+  text-align: right;
+}
+
+.ks-text-justify {
+  text-align: justify;
+}

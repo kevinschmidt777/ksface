@@ -64,3 +64,9 @@ input[type='submit'] {
   margin: 0;
   cursor: pointer;
 }
+
+// Divider
+hr {
+  border:0;
+  border-bottom: 1px solid rgba($color-secondary, 0.2);
+}
