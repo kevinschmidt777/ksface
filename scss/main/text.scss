@@ -311,3 +311,7 @@
 .ks-text-justify {
   text-align: justify;
 }
+
+.ks-text-invert {
+  color: invert($font-color, 100%);
+}
