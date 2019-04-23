@@ -64,7 +64,8 @@ a:hover {
 // Buttons
 button,
 input[type='button'],
-input[type='submit'] {
+input[type='submit'],
+input[type='reset'] {
   -webkit-appearance: none;
   border: 0;
   background: transparent;
@@ -72,6 +73,27 @@ input[type='submit'] {
   padding: 0;
   margin: 0;
   cursor: pointer;
+}
+
+// Form inputs
+input[type='text'],
+input[type='email'],
+input[type='number'],
+input[type='password'],
+input[type='color'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='search'],
+input[type='tel'],
+input[type='time'],
+input[type='url'],
+input[type='week'] {
+  border: 0;
+  background: transparent;
+  color: $font-color;
+  padding: 0;
+  margin: 0;
 }
 
 // Divider
