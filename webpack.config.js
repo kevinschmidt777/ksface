@@ -8,7 +8,7 @@ module.exports = {
   mode: 'production', // production or development (minify output or not)
   entry: './src/index.js',
   output: {
-    filename: './js/ksface.js',
+    filename: './ksface.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
