@@ -2,11 +2,11 @@
   "name": "ksface",
   "version": "1.0.0",
   "description": "a modern self-building ui framework",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass index.scss dist/css/ksface.css --style compressed",
-    "watch": "sass --watch index.scss dist/css/ksface.css"
+    "build": "sass src/index.scss dist/css/ksface.css --style compressed && webpack --config webpack.config.js",
+    "watch": "sass --watch src/index.scss dist/css/ksface.css"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,8 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
   }
 }
