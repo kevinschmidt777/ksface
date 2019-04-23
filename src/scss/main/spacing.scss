@@ -5,38 +5,266 @@
 .ks-padding {
   &-remove-top {
     padding-top: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-top: 0 !important;
+      }
+    }
   }
   &-remove-right {
     padding-right: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-right: 0 !important;
+      }
+    }
   }
   &-remove-bottom {
     padding-bottom: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-bottom: 0 !important;
+      }
+    }
   }
   &-remove-left {
     padding-left: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-left: 0 !important;
+      }
+    }
   }
   &-remove-horizontal {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
   }
   &-remove-vertical {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
   }
   &-minimal {
     padding: $space-minimal round($space-minimal * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
   }
   &-small {
     padding: $space-low round($space-low * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
   }
   &-medium {
     padding: $space-medium round($space-medium * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
   }
   &-large {
     padding: $space-high round($space-high * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
   }
   &-ultra {
     padding: $space-ultra round($space-ultra * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
   }
 }
 
@@ -44,37 +272,265 @@
 .ks-margin {
   &-remove-top {
     margin-top: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-top: 0 !important;
+      }
+    }
   }
   &-remove-right {
     margin-right: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-right: 0 !important;
+      }
+    }
   }
   &-remove-bottom {
     margin-bottom: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-bottom: 0 !important;
+      }
+    }
   }
   &-remove-left {
     margin-left: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-left: 0 !important;
+      }
+    }
   }
   &-remove-horizontal {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
   }
   &-remove-vertical {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
   }
   &-minimal {
     margin: $space-minimal round($space-minimal * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
   }
   &-small {
     margin: $space-low round($space-low * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
   }
   &-medium {
     margin: $space-medium round($space-medium * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
   }
   &-large {
     margin: $space-high round($space-high * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
   }
   &-ultra {
     margin: $space-ultra round($space-ultra * 1.75);
+    &\@phone {
+      @media (min-width: $breakpoint-phone) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@tablet {
+      @media (min-width: $breakpoint-tablet) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@notebook {
+      @media (min-width: $breakpoint-notebook) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@desktop {
+      @media (min-width: $breakpoint-desktop) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
   }
 }
