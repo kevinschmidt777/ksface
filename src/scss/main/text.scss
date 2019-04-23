@@ -294,24 +294,144 @@
 // Text manipulation
 .ks-text-uppercase {
   text-transform: uppercase;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-transform: uppercase;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-transform: uppercase;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-transform: uppercase;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-transform: uppercase;
+    }
+  }
 }
 
 .ks-text-lowercase {
   text-transform: lowercase;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-transform: lowercase;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-transform: lowercase;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-transform: lowercase;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-transform: lowercase;
+    }
+  }
 }
 
 .ks-text-left {
   text-align: left;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-align: left;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-align: left;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-align: left;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-align: left;
+    }
+  }
 }
 
 .ks-text-right {
   text-align: right;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-align: right;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-align: right;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-align: right;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-align: right;
+    }
+  }
 }
 
 .ks-text-justify {
   text-align: justify;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-align: justify;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-align: justify;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-align: justify;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-align: justify;
+    }
+  }
 }
 
 .ks-text-invert {
   color: invert($font-color, 100%);
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      color: invert($font-color, 100%);
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      color: invert($font-color, 100%);
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      color: invert($font-color, 100%);
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      color: invert($font-color, 100%);
+    }
+  }
 }
