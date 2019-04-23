@@ -89,9 +89,11 @@ input[type='tel'],
 input[type='time'],
 input[type='url'],
 input[type='week'] {
-  border: 0;
+  border-style: none;
   background: transparent;
   color: $font-color;
+  font-size: $font-size;
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 0;
   margin: 0;
 }
