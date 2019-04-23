@@ -1,2 +1,20 @@
 // KSFace v1.0.0 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+.ks-button-group {
+  & :last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  & :first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -4px;
+  }
+
+  & :not(:first-child):not(:last-child) {
+    border-radius: 0;
+    margin-right: -4px;
+  }
+}
