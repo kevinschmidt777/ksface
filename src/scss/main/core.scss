@@ -52,6 +52,15 @@ p {
   padding-bottom: $space-low;
 }
 
+// Links
+a,
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: $font-color;
+}
+
 // Buttons
 button,
 input[type='button'],
