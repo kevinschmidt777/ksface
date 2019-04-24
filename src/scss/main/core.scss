@@ -4,18 +4,8 @@
 // Google Web Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
-// Padding and margin reset for some elements
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-textarea,
-select {
+// Padding and margin resets
+* {
   padding: 0;
   margin: 0;
 }
@@ -23,14 +13,18 @@ select {
 // Body settings
 body {
   font-size: $font-size;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
   color: $font-color;
   background-color: $background-color;
 }
 
 // Headlines
-@mixin headlines {
-  color: darken($font-color, 15%);
+h1 {
+  color: $font-color;
+  font-size: 3rem;
+  font-weight: normal;
   margin-top: $space-low;
   margin-bottom: $space-low;
   &:first-child {
@@ -39,26 +33,35 @@ body {
   &:last-child {
     margin-bottom: 0 !important;
   }
-}
-h1 {
-  @include headlines;
-  font-size: 3rem;
+  @if (mixin_exists(headlines)) {
+    @include headlines;
+  }
 }
 
 // Paragraphs
 p {
-  margin: 0;
   padding-top: $space-low;
   padding-bottom: $space-low;
+  @if (mixin_exists(paragraphs)) {
+    @include paragraphs;
+  }
 }
 
 // Links
 a,
 a:active,
-a:focus,
-a:hover {
+a:focus {
   text-decoration: none;
   color: $font-color;
+  transition: $transition-timer;
+  @if (mixin_exists(links)) {
+    @include links;
+  }
+}
+a:hover {
+  @if (mixin_exists(links_hover)) {
+    @include links_hover;
+  }
 }
 
 // Buttons
@@ -70,9 +73,10 @@ input[type='reset'] {
   border: 0;
   background: transparent;
   color: $font-color;
-  padding: 0;
-  margin: 0;
   cursor: pointer;
+  @if (mixin_exists(buttons)) {
+    @include buttons;
+  }
 }
 
 // Form inputs
@@ -89,17 +93,21 @@ input[type='tel'],
 input[type='time'],
 input[type='url'],
 input[type='week'] {
-  border-style: none;
   background: transparent;
+  border: 1px solid $color-secondary;
   color: $font-color;
   font-size: $font-size;
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 0;
-  margin: 0;
+  @if (mixin_exists(inputs)) {
+    @include inputs;
+  }
 }
 
 // Divider
 hr {
   border: 0;
   border-bottom: 1px solid rgba($color-secondary, 0.2);
+  @if (mixin_exists(divider)) {
+    @include divider;
+  }
 }

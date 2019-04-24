@@ -3,9 +3,25 @@
 
 @import 'scss/variables';
 
-// Custom variable overrides starts here.
-
-// Custom variables overrides ends here.
+// Custom variable overrides and mixins starts here.
+@mixin headlines {
+  border-left: 6px solid $color-primary;
+  padding-left: 20px;
+}
+@mixin paragraphs {
+}
+@mixin links {
+}
+@mixin links_hover {
+}
+@mixin buttons {
+}
+@mixin inputs {
+}
+@mixin divider {
+  border-style: dashed;
+}
+// Custom variables overrides and mixins ends here.
 
 @import 'scss/main/core';
 @import 'scss/main/background';
@@ -17,3 +33,5 @@
 @import 'scss/main/content';
 @import 'scss/main/grid';
 @import 'scss/main/width';
+
+// Custom css classes

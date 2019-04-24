@@ -966,6 +966,30 @@
   }
 }
 
+.ks-text-center {
+  text-align: center;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      text-align: center;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      text-align: center;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      text-align: center;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      text-align: center;
+    }
+  }
+}
+
 .ks-text-justify {
   text-align: justify;
   &\@phone {
@@ -1012,4 +1036,20 @@
       color: invert($font-color, 100%);
     }
   }
+}
+
+.ks-text-small {
+  font-size: 0.5rem;
+}
+
+.ks-text-medium {
+  font-size: 0.8rem;
+}
+
+.ks-text-large {
+  font-size: 1.4rem;
+}
+
+.ks-text-ultra {
+  font-size: 2rem;
 }
