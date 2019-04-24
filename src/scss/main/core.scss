@@ -75,6 +75,7 @@ input[type='reset'] {
   background: transparent;
   color: $font-color;
   cursor: pointer;
+  display: inline-block;
   @if (mixin_exists(buttons)) {
     @include buttons;
   }
