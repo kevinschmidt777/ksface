@@ -19,6 +19,14 @@ body {
   color: $font-color;
   background-color: $background-color;
   overflow-x: hidden;
+
+  // Selection background color
+  ::selection {
+    background: rgba($color-primary, 0.3);
+  }
+  ::-moz-selection {
+    background: rgba($color-primary, 0.3);
+  }
 }
 
 // Headlines
