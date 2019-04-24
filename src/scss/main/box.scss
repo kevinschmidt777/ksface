@@ -8,15 +8,10 @@
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: $space-low;
-  padding-right: $space-low;
+  padding-left: $space-medium;
+  padding-right: $space-medium;
 
   @media (min-width: $breakpoint-tablet) {
-    padding-left: $space-medium;
-    padding-right: $space-medium;
-  }
-
-  @media (min-width: $breakpoint-notebook) {
     padding-left: $space-high;
     padding-right: $space-high;
   }
