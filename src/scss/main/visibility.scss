@@ -1,0 +1,49 @@
+// KSFace v1.0.0 - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+.ks-hidden {
+  display: none !important;
+  &\@phone {
+    @media (min-width: $breakpoint-phone) {
+      display: none !important;
+    }
+  }
+  &\@tablet {
+    @media (min-width: $breakpoint-tablet) {
+      display: none !important;
+    }
+  }
+  &\@notebook {
+    @media (min-width: $breakpoint-notebook) {
+      display: none !important;
+    }
+  }
+  &\@desktop {
+    @media (min-width: $breakpoint-desktop) {
+      display: none !important;
+    }
+  }
+}
+
+.ks-visible {
+  &\@phone {
+    @media (max-width: $breakpoint-phone - 1px) {
+      display: none !important;
+    }
+  }
+  &\@tablet {
+    @media (max-width: $breakpoint-tablet - 1px) {
+      display: none !important;
+    }
+  }
+  &\@notebook {
+    @media (max-width: $breakpoint-notebook - 1px) {
+      display: none !important;
+    }
+  }
+  &\@desktop {
+    @media (max-width: $breakpoint-desktop - 1px) {
+      display: none !important;
+    }
+  }
+}

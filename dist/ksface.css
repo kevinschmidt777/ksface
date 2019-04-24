@@ -9,6 +9,7 @@ body {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #686868;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -17,7 +18,7 @@ h1 {
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-left: 6px solid #c69364;
+  border-left: 6px solid #c69d78;
   padding-left: 20px;
 }
 h1:first-child {
@@ -78,62 +79,62 @@ hr {
 }
 
 .ks-background-primary {
-  background-color: #c69364;
+  background-color: #c69d78;
 }
 .ks-background-primary-shade {
-  background-color: #c48f5e;
+  background-color: #c49973;
 }
 .ks-background-primary-shade-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #c48f5e;
-  -moz-box-shadow: inset 0 -5px 0 #c48f5e;
-  box-shadow: inset 0 -5px 0 #c48f5e;
+  -webkit-box-shadow: inset 0 -5px 0 #c49973;
+  -moz-box-shadow: inset 0 -5px 0 #c49973;
+  box-shadow: inset 0 -5px 0 #c49973;
 }
 .ks-background-primary-dark {
-  background-color: #b57942;
+  background-color: #b78354;
 }
 .ks-background-primary-dark-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #b57942;
-  -moz-box-shadow: inset 0 -5px 0 #b57942;
-  box-shadow: inset 0 -5px 0 #b57942;
+  -webkit-box-shadow: inset 0 -5px 0 #b78354;
+  -moz-box-shadow: inset 0 -5px 0 #b78354;
+  box-shadow: inset 0 -5px 0 #b78354;
 }
 .ks-background-primary-darker {
-  background-color: #8f6035;
+  background-color: #986a40;
 }
 .ks-background-primary-darker-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #8f6035;
-  -moz-box-shadow: inset 0 -5px 0 #8f6035;
-  box-shadow: inset 0 -5px 0 #8f6035;
+  -webkit-box-shadow: inset 0 -5px 0 #986a40;
+  -moz-box-shadow: inset 0 -5px 0 #986a40;
+  box-shadow: inset 0 -5px 0 #986a40;
 }
 .ks-background-primary-darkest {
-  background-color: #6a4727;
+  background-color: #745131;
 }
 .ks-background-primary-light {
-  background-color: #d4ad89;
+  background-color: #d5b79c;
 }
 .ks-background-primary-light-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #d4ad89;
-  -moz-box-shadow: inset 0 -5px 0 #d4ad89;
-  box-shadow: inset 0 -5px 0 #d4ad89;
+  -webkit-box-shadow: inset 0 -5px 0 #d5b79c;
+  -moz-box-shadow: inset 0 -5px 0 #d5b79c;
+  box-shadow: inset 0 -5px 0 #d5b79c;
 }
 .ks-background-primary-lighter {
-  background-color: #e1c7af;
+  background-color: #e4d1c0;
 }
 .ks-background-primary-lighter-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #e1c7af;
-  -moz-box-shadow: inset 0 -5px 0 #e1c7af;
-  box-shadow: inset 0 -5px 0 #e1c7af;
+  -webkit-box-shadow: inset 0 -5px 0 #e4d1c0;
+  -moz-box-shadow: inset 0 -5px 0 #e4d1c0;
+  box-shadow: inset 0 -5px 0 #e4d1c0;
 }
 .ks-background-primary-lightest {
-  background-color: #efe1d4;
+  background-color: #f3ebe4;
 }
 .ks-background-primary-underline {
-  -webkit-box-shadow: inset 0 -5px 0 #c69364;
-  -moz-box-shadow: inset 0 -5px 0 #c69364;
-  box-shadow: inset 0 -5px 0 #c69364;
+  -webkit-box-shadow: inset 0 -5px 0 #c69d78;
+  -moz-box-shadow: inset 0 -5px 0 #c69d78;
+  box-shadow: inset 0 -5px 0 #c69d78;
 }
 .ks-background-primary-gradient {
-  background-color: #c69364;
-  background-image: linear-gradient(141deg, #c16236 0%, #c69364 71%, #d2b072 100%);
+  background-color: #c69d78;
+  background-image: linear-gradient(141deg, #c36e48 0%, #c69d78 71%, #d2b686 100%);
 }
 
 .ks-background-secondary {
@@ -789,113 +790,113 @@ hr {
   transition: 0.1s;
 }
 .ks-background-hover-primary:hover {
-  background-color: #c69364;
+  background-color: #c69d78;
 }
 .ks-background-hover-primary-shade {
   transition: 0.1s;
 }
 .ks-background-hover-primary-shade:hover {
-  background-color: #c48f5e;
+  background-color: #c49973;
 }
 .ks-background-hover-primary-shade-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-shade-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #c48f5e;
-  -moz-box-shadow: inset 0 -4px 0 #c48f5e;
-  box-shadow: inset 0 -4px 0 #c48f5e;
+  -webkit-box-shadow: inset 0 -4px 0 #c49973;
+  -moz-box-shadow: inset 0 -4px 0 #c49973;
+  box-shadow: inset 0 -4px 0 #c49973;
 }
 .ks-background-hover-primary-dark {
   transition: 0.1s;
 }
 .ks-background-hover-primary-dark:hover {
-  background-color: #b57942;
+  background-color: #b78354;
 }
 .ks-background-hover-primary-dark-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-dark-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #b57942;
-  -moz-box-shadow: inset 0 -4px 0 #b57942;
-  box-shadow: inset 0 -4px 0 #b57942;
+  -webkit-box-shadow: inset 0 -4px 0 #b78354;
+  -moz-box-shadow: inset 0 -4px 0 #b78354;
+  box-shadow: inset 0 -4px 0 #b78354;
 }
 .ks-background-hover-primary-darker {
   transition: 0.1s;
 }
 .ks-background-hover-primary-darker:hover {
-  background-color: #8f6035;
+  background-color: #986a40;
 }
 .ks-background-hover-primary-darker-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-darker-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #8f6035;
-  -moz-box-shadow: inset 0 -4px 0 #8f6035;
-  box-shadow: inset 0 -4px 0 #8f6035;
+  -webkit-box-shadow: inset 0 -4px 0 #986a40;
+  -moz-box-shadow: inset 0 -4px 0 #986a40;
+  box-shadow: inset 0 -4px 0 #986a40;
 }
 .ks-background-hover-primary-darkest {
   transition: 0.1s;
 }
 .ks-background-hover-primary-darkest:hover {
-  background-color: #6a4727;
+  background-color: #745131;
 }
 .ks-background-hover-primary-darkest-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-darkest-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #6a4727;
-  -moz-box-shadow: inset 0 -4px 0 #6a4727;
-  box-shadow: inset 0 -4px 0 #6a4727;
+  -webkit-box-shadow: inset 0 -4px 0 #745131;
+  -moz-box-shadow: inset 0 -4px 0 #745131;
+  box-shadow: inset 0 -4px 0 #745131;
 }
 .ks-background-hover-primary-light {
   transition: 0.1s;
 }
 .ks-background-hover-primary-light:hover {
-  background-color: #d4ad89;
+  background-color: #d5b79c;
 }
 .ks-background-hover-primary-light-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-light-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #d4ad89;
-  -moz-box-shadow: inset 0 -4px 0 #d4ad89;
-  box-shadow: inset 0 -4px 0 #d4ad89;
+  -webkit-box-shadow: inset 0 -4px 0 #d5b79c;
+  -moz-box-shadow: inset 0 -4px 0 #d5b79c;
+  box-shadow: inset 0 -4px 0 #d5b79c;
 }
 .ks-background-hover-primary-lighter {
   transition: 0.1s;
 }
 .ks-background-hover-primary-lighter:hover {
-  background-color: #e1c7af;
+  background-color: #e4d1c0;
 }
 .ks-background-hover-primary-lighter-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-lighter-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #e1c7af;
-  -moz-box-shadow: inset 0 -4px 0 #e1c7af;
-  box-shadow: inset 0 -4px 0 #e1c7af;
+  -webkit-box-shadow: inset 0 -4px 0 #e4d1c0;
+  -moz-box-shadow: inset 0 -4px 0 #e4d1c0;
+  box-shadow: inset 0 -4px 0 #e4d1c0;
 }
 .ks-background-hover-primary-lightest {
   transition: 0.1s;
 }
 .ks-background-hover-primary-lightest:hover {
-  background-color: #efe1d4;
+  background-color: #f3ebe4;
 }
 .ks-background-hover-primary-lightest-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-lightest-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #efe1d4;
-  -moz-box-shadow: inset 0 -4px 0 #efe1d4;
-  box-shadow: inset 0 -4px 0 #efe1d4;
+  -webkit-box-shadow: inset 0 -4px 0 #f3ebe4;
+  -moz-box-shadow: inset 0 -4px 0 #f3ebe4;
+  box-shadow: inset 0 -4px 0 #f3ebe4;
 }
 .ks-background-hover-primary-underline {
   transition: 0.1s;
 }
 .ks-background-hover-primary-underline:hover {
-  -webkit-box-shadow: inset 0 -4px 0 #c69364;
-  -moz-box-shadow: inset 0 -4px 0 #c69364;
-  box-shadow: inset 0 -4px 0 #c69364;
+  -webkit-box-shadow: inset 0 -4px 0 #c69d78;
+  -moz-box-shadow: inset 0 -4px 0 #c69d78;
+  box-shadow: inset 0 -4px 0 #c69d78;
 }
 
 .ks-background-hover-secondary {
@@ -2670,28 +2671,28 @@ hr {
 }
 
 .ks-text-primary {
-  color: #c69364;
+  color: #c69d78;
 }
 .ks-text-primary-shade {
-  color: #c48f5e;
+  color: #c49973;
 }
 .ks-text-primary-dark {
-  color: #b57942;
+  color: #b78354;
 }
 .ks-text-primary-darker {
-  color: #8f6035;
+  color: #986a40;
 }
 .ks-text-primary-darkest {
-  color: #6a4727;
+  color: #745131;
 }
 .ks-text-primary-light {
-  color: #d4ad89;
+  color: #d5b79c;
 }
 .ks-text-primary-lighter {
-  color: #e1c7af;
+  color: #e4d1c0;
 }
 .ks-text-primary-lightest {
-  color: #efe1d4;
+  color: #f3ebe4;
 }
 
 .ks-text-secondary {
@@ -2973,49 +2974,49 @@ hr {
   transition: 0.1s;
 }
 .ks-text-hover-primary:hover {
-  color: #c69364;
+  color: #c69d78;
 }
 .ks-text-hover-primary-shade {
   transition: 0.1s;
 }
 .ks-text-hover-primary-shade:hover {
-  color: #c48f5e;
+  color: #c49973;
 }
 .ks-text-hover-primary-dark {
   transition: 0.1s;
 }
 .ks-text-hover-primary-dark:hover {
-  color: #b57942;
+  color: #b78354;
 }
 .ks-text-hover-primary-darker {
   transition: 0.1s;
 }
 .ks-text-hover-primary-darker:hover {
-  color: #8f6035;
+  color: #986a40;
 }
 .ks-text-hover-primary-darkest {
   transition: 0.1s;
 }
 .ks-text-hover-primary-darkest:hover {
-  color: #6a4727;
+  color: #745131;
 }
 .ks-text-hover-primary-light {
   transition: 0.1s;
 }
 .ks-text-hover-primary-light:hover {
-  color: #d4ad89;
+  color: #d5b79c;
 }
 .ks-text-hover-primary-lighter {
   transition: 0.1s;
 }
 .ks-text-hover-primary-lighter:hover {
-  color: #e1c7af;
+  color: #e4d1c0;
 }
 .ks-text-hover-primary-lightest {
   transition: 0.1s;
 }
 .ks-text-hover-primary-lightest:hover {
-  color: #efe1d4;
+  color: #f3ebe4;
 }
 
 .ks-text-hover-secondary {
@@ -3804,28 +3805,28 @@ hr {
 }
 
 .ks-border-primary {
-  border-color: #c69364;
+  border-color: #c69d78;
 }
 .ks-border-primary-shade {
-  border-color: #c48f5e;
+  border-color: #c49973;
 }
 .ks-border-primary-dark {
-  border-color: #b57942;
+  border-color: #b78354;
 }
 .ks-border-primary-darker {
-  border-color: #8f6035;
+  border-color: #986a40;
 }
 .ks-border-primary-darkest {
-  border-color: #6a4727;
+  border-color: #745131;
 }
 .ks-border-primary-light {
-  border-color: #d4ad89;
+  border-color: #d5b79c;
 }
 .ks-border-primary-lighter {
-  border-color: #e1c7af;
+  border-color: #e4d1c0;
 }
 .ks-border-primary-lightest {
-  border-color: #efe1d4;
+  border-color: #f3ebe4;
 }
 
 .ks-border-secondary {
@@ -6418,6 +6419,51 @@ hr {
 
 .ks-width-1-2 {
   width: 50%;
+}
+
+.ks-hidden {
+  display: none !important;
+}
+@media (min-width: 640px) {
+  .ks-hidden\@phone {
+    display: none !important;
+  }
+}
+@media (min-width: 960px) {
+  .ks-hidden\@tablet {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .ks-hidden\@notebook {
+    display: none !important;
+  }
+}
+@media (min-width: 1600px) {
+  .ks-hidden\@desktop {
+    display: none !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .ks-visible\@phone {
+    display: none !important;
+  }
+}
+@media (max-width: 959px) {
+  .ks-visible\@tablet {
+    display: none !important;
+  }
+}
+@media (max-width: 1199px) {
+  .ks-visible\@notebook {
+    display: none !important;
+  }
+}
+@media (max-width: 1599px) {
+  .ks-visible\@desktop {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=ksface.css.map */
