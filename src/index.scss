@@ -32,6 +32,8 @@ $background-color: #f7f7f7;
 @mixin inputs {
 }
 @mixin divider {
+  padding:10px 0;
+  border-color: $color-secondary;
 }
 
 // Main KSFace elements
