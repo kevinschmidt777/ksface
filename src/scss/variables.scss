@@ -17,8 +17,8 @@ $color-turquoise: #48e5a7 !default;
 
 // Base typography
 $font-size: 18px !default;
-$font-color: #686868 !default;
-$background-color: $color-white !default;
+$font-color: #6f6f6f !default;
+$background-color: #f7f7f7 !default;
 
 // Responsive breakpoints
 $breakpoint-phone: 640px !default;
@@ -28,12 +28,6 @@ $breakpoint-desktop: 1600px !default;
 
 // Box max. width
 $box-width: 1400px !default;
-
-// Color tints
-$tint-minimal: 1.5% !default;
-$tint-low: 10% !default;
-$tint-medium: 20% !default;
-$tint-high: 30% !default;
 
 // Spacing standards
 $space-minimal: 2px !default;
