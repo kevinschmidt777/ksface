@@ -3,7 +3,7 @@
 
 @import 'scss/variables';
 
-// Custom variable overrides and mixins starts here.
+// Custom variable overrides and mixins
 
 $color-primary: #c69d78;
 $color-secondary: #9a928b;
@@ -20,13 +20,21 @@ $background-color: #f7f7f7;
   color: darken($color-primary, 10%);
 }
 @mixin buttons {
+  font-weight: lighter;
+  background-image: linear-gradient(180deg, #FFFFFF 88%, #C69D78 88%, #C69D78 95%, #FFFFFF 95%, #FFFFFF 100%);
+  box-shadow: inset 0 0 0 5px #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+@mixin buttons_hover {
+  background-image: linear-gradient(180deg, #FFFFFF 85%, #C69D78 85%, #C69D78 95%, #FFFFFF 95%, #FFFFFF 100%);
 }
 @mixin inputs {
 }
 @mixin divider {
 }
 
-// Custom variables overrides and mixins ends here.
+// Main KSFace elements
 
 @import 'scss/main/core';
 @import 'scss/main/spacing';
@@ -38,4 +46,4 @@ $background-color: #f7f7f7;
 @import 'scss/main/width';
 @import 'scss/main/visibility';
 
-// Custom css classes
+// Custom CSS classes

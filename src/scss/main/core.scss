@@ -80,8 +80,14 @@ input[type='reset'] {
   color: $font-color;
   cursor: pointer;
   display: inline-block;
+  transition: $transition-timer;
   @if (mixin_exists(buttons)) {
     @include buttons;
+  }
+  &:hover {
+    @if (mixin_exists(buttons_hover)) {
+      @include buttons_hover;
+    }
   }
 }
 
