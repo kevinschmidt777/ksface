@@ -1,4 +1,4 @@
-// KSFace v0.1.1 - www.ksface.com
+// KSFace v0.1.2 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
 // Load default variables
@@ -45,3 +45,14 @@ $background-color: #f7f7f7;
 @import 'index';
 
 // Your custom CSS
+
+.ks-code {
+  display:inline-block;
+  background-color: $color-white;
+  padding: $space-low;
+  border-radius: $border-rounded;
+  border-style: dashed;
+  border-color: $color-secondary;
+  border-width: 1px;
+  font-weight: bold;
+}
