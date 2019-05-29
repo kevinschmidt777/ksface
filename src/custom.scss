@@ -1,0 +1,45 @@
+// KSFace v0.1.1 - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+
+// Load default variables
+
+@import 'scss/variables';
+
+// Custom variable overrides and mixins
+
+$color-primary: #c69d78;
+$color-secondary: #9a928b;
+$background-color: #f7f7f7;
+
+@mixin headlines {
+}
+@mixin paragraphs {
+}
+@mixin links {
+  color: $color-primary;
+}
+@mixin links_hover {
+  color: darken($color-primary, 10%);
+}
+@mixin buttons {
+  font-weight: lighter;
+  background-image: linear-gradient(180deg, $color-white 95%, $color-secondary 95%, $color-secondary 100%);
+  // box-shadow: inset 0 0 0 5px #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+@mixin buttons_hover {
+  background-image: linear-gradient(180deg, $color-white 90%, $color-primary 90%, $color-primary 100%);
+}
+@mixin inputs {
+}
+@mixin divider {
+  padding:10px 0;
+  border-color: $color-secondary;
+}
+
+// KSFace core
+
+@import 'index';
+
+// Custom CSS classes
