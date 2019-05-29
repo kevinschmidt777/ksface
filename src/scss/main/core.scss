@@ -137,3 +137,11 @@ ul {
     @include lists;
   }
 }
+
+// Tables
+table {
+  text-align: left;
+  @if (mixin_exists(tables)) {
+    @include tables;
+  }
+}
