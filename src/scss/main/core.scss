@@ -123,3 +123,8 @@ hr {
     @include divider;
   }
 }
+
+// Images
+img {
+  max-width:100%;
+}
