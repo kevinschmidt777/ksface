@@ -46,13 +46,11 @@ $background-color: #f7f7f7;
 
 // Your custom CSS
 
-.ks-code {
-  display:inline-block;
+code {
   background-color: $color-white;
   padding: $space-low;
   border-radius: $border-rounded;
   border-style: dashed;
   border-color: $color-secondary;
   border-width: 1px;
-  font-weight: bold;
 }
