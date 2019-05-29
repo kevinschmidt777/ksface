@@ -128,3 +128,12 @@ hr {
 img {
   max-width:100%;
 }
+
+// Lists
+ul {
+  margin-left: 0;
+  padding-left: 20px;
+  @if (mixin_exists(lists)) {
+    @include lists;
+  }
+}
