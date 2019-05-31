@@ -1,5 +1,6 @@
-// KSFace v0.1.6 - www.ksface.com
+// KSFace - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
 import './js/icons';
 import './js/grid';
+import './js/tableOverflow';
