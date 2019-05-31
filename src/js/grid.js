@@ -1,4 +1,4 @@
-// KSFace v0.1.4 - www.ksface.com
+// KSFace v0.1.5 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
 // Select parent from .ks-grid to apply overflow:hidden (hide overflowing grid div)
