@@ -47,3 +47,8 @@
     }
   }
 }
+
+// Wrapper to make child elements responsive and x-scrollable without destroying the layout
+.ks-overflow-auto {
+  overflow-x:auto;
+}
