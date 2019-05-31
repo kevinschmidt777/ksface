@@ -1,4 +1,4 @@
-// KSFace v0.1.5 - www.ksface.com
+// KSFace v0.1.6 - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
 
 // Responsive box container
@@ -8,11 +8,11 @@
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: $space-medium;
-  padding-right: $space-medium;
+  padding-left: $space-low;
+  padding-right: $space-low;
 
   @media (min-width: $breakpoint-medium) {
-    padding-left: $space-high;
-    padding-right: $space-high;
+    padding-left: $space-medium;
+    padding-right: $space-medium;
   }
 }
