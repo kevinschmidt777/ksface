@@ -3,4 +3,3 @@
 
 import './js/icons';
 import './js/grid';
-import './js/tableOverflow';
