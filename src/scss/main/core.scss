@@ -23,6 +23,10 @@ body {
   // Selection Background Color
   ::-moz-selection { background: lighten($color-primary, 15%); }
   ::selection { background: lighten($color-primary, 15%); }
+
+  @if (mixin_exists(body)) {
+    @include body;
+  }
 }
 
 // Headlines
