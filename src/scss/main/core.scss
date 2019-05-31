@@ -32,6 +32,7 @@ body {
 // Making div child elements (like tables, etc.) responsive and x-scrollable without destroying the layout
 div {
   overflow-x:auto;
+  overflow-y:visible;
 }
 
 // Headlines
