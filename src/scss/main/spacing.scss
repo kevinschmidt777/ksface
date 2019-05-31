@@ -5,92 +5,92 @@
 .ks-padding {
   &-remove-top {
     padding-top: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-top: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-top: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-top: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-top: 0 !important;
       }
     }
   }
   &-remove-right {
     padding-right: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-right: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-right: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-right: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-right: 0 !important;
       }
     }
   }
   &-remove-bottom {
     padding-bottom: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-bottom: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-bottom: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-bottom: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-bottom: 0 !important;
       }
     }
   }
   &-remove-left {
     padding-left: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-left: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-left: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-left: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-left: 0 !important;
       }
     }
@@ -98,26 +98,26 @@
   &-remove-horizontal {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
@@ -126,26 +126,26 @@
   &-remove-vertical {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
       }
@@ -153,115 +153,115 @@
   }
   &-minimal {
     padding: $space-minimal round($space-minimal * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding: $space-minimal round($space-minimal * 1.75);
       }
     }
   }
   &-small {
     padding: $space-low round($space-low * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding: $space-low round($space-low * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding: $space-low round($space-low * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding: $space-low round($space-low * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding: $space-low round($space-low * 1.75);
       }
     }
   }
   &-medium {
     padding: $space-medium round($space-medium * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding: $space-medium round($space-medium * 1.75);
       }
     }
   }
   &-large {
     padding: $space-high round($space-high * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding: $space-high round($space-high * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding: $space-high round($space-high * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding: $space-high round($space-high * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding: $space-high round($space-high * 1.75);
       }
     }
   }
   &-ultra {
     padding: $space-ultra round($space-ultra * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         padding: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         padding: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         padding: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         padding: $space-ultra round($space-ultra * 1.75);
       }
     }
@@ -272,92 +272,92 @@
 .ks-margin {
   &-remove-top {
     margin-top: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-top: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-top: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-top: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-top: 0 !important;
       }
     }
   }
   &-remove-right {
     margin-right: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-right: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-right: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-right: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-right: 0 !important;
       }
     }
   }
   &-remove-bottom {
     margin-bottom: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-bottom: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-bottom: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-bottom: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-bottom: 0 !important;
       }
     }
   }
   &-remove-left {
     margin-left: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-left: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-left: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-left: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-left: 0 !important;
       }
     }
@@ -365,26 +365,26 @@
   &-remove-horizontal {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-left: 0 !important;
         margin-right: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-left: 0 !important;
         margin-right: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-left: 0 !important;
         margin-right: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-left: 0 !important;
         margin-right: 0 !important;
       }
@@ -393,26 +393,26 @@
   &-remove-vertical {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin-top: 0 !important;
         margin-bottom: 0 !important;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin-top: 0 !important;
         margin-bottom: 0 !important;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin-top: 0 !important;
         margin-bottom: 0 !important;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin-top: 0 !important;
         margin-bottom: 0 !important;
       }
@@ -420,115 +420,115 @@
   }
   &-minimal {
     margin: $space-minimal round($space-minimal * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin: $space-minimal round($space-minimal * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin: $space-minimal round($space-minimal * 1.75);
       }
     }
   }
   &-small {
     margin: $space-low round($space-low * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin: $space-low round($space-low * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin: $space-low round($space-low * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin: $space-low round($space-low * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin: $space-low round($space-low * 1.75);
       }
     }
   }
   &-medium {
     margin: $space-medium round($space-medium * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin: $space-medium round($space-medium * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin: $space-medium round($space-medium * 1.75);
       }
     }
   }
   &-large {
     margin: $space-high round($space-high * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin: $space-high round($space-high * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin: $space-high round($space-high * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin: $space-high round($space-high * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin: $space-high round($space-high * 1.75);
       }
     }
   }
   &-ultra {
     margin: $space-ultra round($space-ultra * 1.75);
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         margin: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         margin: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         margin: $space-ultra round($space-ultra * 1.75);
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         margin: $space-ultra round($space-ultra * 1.75);
       }
     }

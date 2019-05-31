@@ -3,46 +3,46 @@
 
 .ks-hidden {
   display: none !important;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       display: none !important;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       display: none !important;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       display: none !important;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       display: none !important;
     }
   }
 }
 
 .ks-visible {
-  &\@phone {
-    @media (max-width: $breakpoint-phone - 1px) {
+  &\@small {
+    @media (max-width: $breakpoint-small - 1px) {
       display: none !important;
     }
   }
-  &\@tablet {
-    @media (max-width: $breakpoint-tablet - 1px) {
+  &\@medium {
+    @media (max-width: $breakpoint-medium - 1px) {
       display: none !important;
     }
   }
-  &\@notebook {
-    @media (max-width: $breakpoint-notebook - 1px) {
+  &\@large {
+    @media (max-width: $breakpoint-large - 1px) {
       display: none !important;
     }
   }
-  &\@desktop {
-    @media (max-width: $breakpoint-desktop - 1px) {
+  &\@ultra {
+    @media (max-width: $breakpoint-ultra - 1px) {
       display: none !important;
     }
   }

@@ -5,26 +5,26 @@
   &-top {
     display: flex;
     align-items: flex-start;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         align-items: flex-start;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         align-items: flex-start;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         align-items: flex-start;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         align-items: flex-start;
       }
@@ -33,26 +33,26 @@
   &-middle {
     display: flex;
     align-items: center;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         align-items: center;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         align-items: center;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         align-items: center;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         align-items: center;
       }
@@ -61,26 +61,26 @@
   &-bottom {
     display: flex;
     align-items: flex-end;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         align-items: flex-end;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         align-items: flex-end;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         align-items: flex-end;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         align-items: flex-end;
       }
@@ -90,26 +90,26 @@
   &-left {
     display: flex;
     justify-content: flex-start;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         justify-content: flex-start;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         justify-content: flex-start;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         justify-content: flex-start;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         justify-content: flex-start;
       }
@@ -118,26 +118,26 @@
   &-center {
     display: flex;
     justify-content: center;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         justify-content: center;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         justify-content: center;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         justify-content: center;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         justify-content: center;
       }
@@ -146,26 +146,26 @@
   &-right {
     display: flex;
     justify-content: flex-end;
-    &\@phone {
-      @media (min-width: $breakpoint-phone) {
+    &\@small {
+      @media (min-width: $breakpoint-small) {
         display: flex;
         justify-content: flex-end;
       }
     }
-    &\@tablet {
-      @media (min-width: $breakpoint-tablet) {
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
         display: flex;
         justify-content: flex-end;
       }
     }
-    &\@notebook {
-      @media (min-width: $breakpoint-notebook) {
+    &\@large {
+      @media (min-width: $breakpoint-large) {
         display: flex;
         justify-content: flex-end;
       }
     }
-    &\@desktop {
-      @media (min-width: $breakpoint-desktop) {
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
         display: flex;
         justify-content: flex-end;
       }

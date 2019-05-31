@@ -11,7 +11,7 @@
   padding-left: $space-medium;
   padding-right: $space-medium;
 
-  @media (min-width: $breakpoint-tablet) {
+  @media (min-width: $breakpoint-medium) {
     padding-left: $space-high;
     padding-right: $space-high;
   }

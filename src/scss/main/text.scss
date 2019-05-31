@@ -13,23 +13,23 @@
 // Text manipulation
 .ks-text-uppercase {
   text-transform: uppercase;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-transform: uppercase;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-transform: uppercase;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-transform: uppercase;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-transform: uppercase;
     }
   }
@@ -37,23 +37,23 @@
 
 .ks-text-lowercase {
   text-transform: lowercase;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-transform: lowercase;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-transform: lowercase;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-transform: lowercase;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-transform: lowercase;
     }
   }
@@ -61,23 +61,23 @@
 
 .ks-text-left {
   text-align: left;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-align: left;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-align: left;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-align: left;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-align: left;
     }
   }
@@ -85,23 +85,23 @@
 
 .ks-text-right {
   text-align: right;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-align: right;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-align: right;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-align: right;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-align: right;
     }
   }
@@ -109,23 +109,23 @@
 
 .ks-text-center {
   text-align: center;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-align: center;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-align: center;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-align: center;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-align: center;
     }
   }
@@ -133,23 +133,23 @@
 
 .ks-text-justify {
   text-align: justify;
-  &\@phone {
-    @media (min-width: $breakpoint-phone) {
+  &\@small {
+    @media (min-width: $breakpoint-small) {
       text-align: justify;
     }
   }
-  &\@tablet {
-    @media (min-width: $breakpoint-tablet) {
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
       text-align: justify;
     }
   }
-  &\@notebook {
-    @media (min-width: $breakpoint-notebook) {
+  &\@large {
+    @media (min-width: $breakpoint-large) {
       text-align: justify;
     }
   }
-  &\@desktop {
-    @media (min-width: $breakpoint-desktop) {
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
       text-align: justify;
     }
   }
