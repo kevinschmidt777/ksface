@@ -10,6 +10,14 @@
   color: $color-secondary;
 }
 
+.ks-text-white {
+  color: $color-white;
+}
+
+.ks-text-black {
+  color: $color-black;
+}
+
 // Text manipulation
 .ks-text-uppercase {
   text-transform: uppercase;
@@ -156,17 +164,97 @@
 }
 
 .ks-text-small {
-  font-size: 0.8rem;
+  font-size: $size-small;
+  &\@small {
+    @media (min-width: $breakpoint-small) {
+      font-size: $size-small;
+    }
+  }
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
+      font-size: $size-small;
+    }
+  }
+  &\@large {
+    @media (min-width: $breakpoint-large) {
+      font-size: $size-small;
+    }
+  }
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
+      font-size: $size-small;
+    }
+  }
 }
 
 .ks-text-medium {
-  font-size: 1.4rem;
+  font-size: $size-medium;
+  &\@small {
+    @media (min-width: $breakpoint-small) {
+      font-size: $size-medium;
+    }
+  }
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
+      font-size: $size-medium;
+    }
+  }
+  &\@large {
+    @media (min-width: $breakpoint-large) {
+      font-size: $size-medium;
+    }
+  }
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
+      font-size: $size-medium;
+    }
+  }
 }
 
 .ks-text-large {
-  font-size: 1.8rem;
+  font-size: $size-large;
+  &\@small {
+    @media (min-width: $breakpoint-small) {
+      font-size: $size-large;
+    }
+  }
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
+      font-size: $size-large;
+    }
+  }
+  &\@large {
+    @media (min-width: $breakpoint-large) {
+      font-size: $size-large;
+    }
+  }
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
+      font-size: $size-large;
+    }
+  }
 }
 
 .ks-text-ultra {
-  font-size: 3rem;
+  font-size: $size-ultra;
+  &\@small {
+    @media (min-width: $breakpoint-small) {
+      font-size: $size-ultra;
+    }
+  }
+  &\@medium {
+    @media (min-width: $breakpoint-medium) {
+      font-size: $size-ultra;
+    }
+  }
+  &\@large {
+    @media (min-width: $breakpoint-large) {
+      font-size: $size-ultra;
+    }
+  }
+  &\@ultra {
+    @media (min-width: $breakpoint-ultra) {
+      font-size: $size-ultra;
+    }
+  }
 }
