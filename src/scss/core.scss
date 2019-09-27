@@ -1,5 +1,5 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
 
 // Google Web Fonts
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
@@ -18,11 +18,15 @@ body {
     'Segoe UI Symbol';
   color: $font-color;
   background-color: $background-color;
-  overflow-x: hidden;
+  overflow-x: hidden; // Avoid horizontal scrolling effects on small displays
 
   // Selection Background Color
-  ::-moz-selection { background: lighten($color-primary, 15%); }
-  ::selection { background: lighten($color-primary, 15%); }
+  ::-moz-selection {
+    background: lighten($color-primary, 15%);
+  }
+  ::selection {
+    background: lighten($color-primary, 15%);
+  }
 
   @if (mixin_exists(body)) {
     @include body;
@@ -130,7 +134,7 @@ hr {
 
 // Images
 img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 // Lists

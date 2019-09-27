@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass src/custom.scss dist/ksface.css --style compressed && webpack --config webpack.config.js",
-    "watch": "sass --watch src/custom.scss dist/ksface.css && webpack --config webpack.config.js --watch"
+    "build": "sass src/index.scss dist/ksface.css --style compressed && webpack --config webpack.config.js",
+    "watch": "sass --watch src/index.scss dist/ksface.css && webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,1456 @@
+// KSFace - www.ksface.com
+// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
+
+// Padding
+.ks-padding {
+  &-remove-top {
+    padding-top: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: 0 !important;
+      }
+    }
+  }
+  &-remove-right {
+    padding-right: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: 0 !important;
+      }
+    }
+  }
+  &-remove-bottom {
+    padding-bottom: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+  &-remove-left {
+    padding-left: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: 0 !important;
+      }
+    }
+  }
+  &-remove-horizontal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+    }
+  }
+  &-remove-vertical {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+  &-minimal {
+    padding: $space-minimal round($space-minimal * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+  }
+  &-minimal-top {
+    padding-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: $space-minimal;
+      }
+    }
+  }
+  &-minimal-right {
+    padding-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: $space-minimal;
+      }
+    }
+  }
+  &-minimal-bottom {
+    padding-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: $space-minimal;
+      }
+    }
+  }
+  &-minimal-left {
+    padding-left: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: $space-minimal;
+      }
+    }
+  }
+  &-small {
+    padding: $space-low round($space-low * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding: $space-low round($space-low * 1.75);
+      }
+    }
+  }
+  &-small-top {
+    padding-top: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: $space-low;
+      }
+    }
+  }
+  &-small-right {
+    padding-right: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: $space-low;
+      }
+    }
+  }
+  &-small-bottom {
+    padding-bottom: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: $space-low;
+      }
+    }
+  }
+  &-small-left {
+    padding-left: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: $space-low;
+      }
+    }
+  }
+  &-medium {
+    padding: $space-medium round($space-medium * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding: $space-medium round($space-medium * 1.75);
+      }
+    }
+  }
+  &-medium-top {
+    padding-top: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: $space-medium;
+      }
+    }
+  }
+  &-medium-right {
+    padding-right: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: $space-medium;
+      }
+    }
+  }
+  &-medium-bottom {
+    padding-bottom: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: $space-medium;
+      }
+    }
+  }
+  &-medium-left {
+    padding-left: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: $space-medium;
+      }
+    }
+  }
+  &-large {
+    padding: $space-high round($space-high * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding: $space-high round($space-high * 1.75);
+      }
+    }
+  }
+  &-large-top {
+    padding-top: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: $space-high;
+      }
+    }
+  }
+  &-large-right {
+    padding-right: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: $space-high;
+      }
+    }
+  }
+  &-large-bottom {
+    padding-bottom: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: $space-high;
+      }
+    }
+  }
+  &-large-left {
+    padding-left: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: $space-high;
+      }
+    }
+  }
+  &-ultra {
+    padding: $space-ultra round($space-ultra * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+  }
+  &-ultra-top {
+    padding-top: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-top: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-top: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-top: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-top: $space-ultra;
+      }
+    }
+  }
+  &-ultra-right {
+    padding-right: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-right: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-right: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-right: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-right: $space-ultra;
+      }
+    }
+  }
+  &-ultra-bottom {
+    padding-bottom: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-bottom: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-bottom: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-bottom: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-bottom: $space-ultra;
+      }
+    }
+  }
+  &-ultra-left {
+    padding-left: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        padding-left: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        padding-left: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        padding-left: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        padding-left: $space-ultra;
+      }
+    }
+  }
+}
+
+// Margin
+.ks-margin {
+  &-remove-top {
+    margin-top: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: 0 !important;
+      }
+    }
+  }
+  &-remove-right {
+    margin-right: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: 0 !important;
+      }
+    }
+  }
+  &-remove-bottom {
+    margin-bottom: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+  &-remove-left {
+    margin-left: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: 0 !important;
+      }
+    }
+  }
+  &-remove-horizontal {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+  }
+  &-remove-vertical {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+  &-minimal {
+    margin: $space-minimal round($space-minimal * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin: $space-minimal round($space-minimal * 1.75);
+      }
+    }
+  }
+  &-minimal-top {
+    margin-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: $space-minimal;
+      }
+    }
+  }
+  &-minimal-right {
+    margin-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: $space-minimal;
+      }
+    }
+  }
+  &-minimal-bottom {
+    margin-top: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: $space-minimal;
+      }
+    }
+  }
+  &-minimal-left {
+    margin-left: $space-minimal;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: $space-minimal;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: $space-minimal;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: $space-minimal;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: $space-minimal;
+      }
+    }
+  }
+  &-small {
+    margin: $space-low round($space-low * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin: $space-low round($space-low * 1.75);
+      }
+    }
+  }
+  &-small-top {
+    margin-top: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: $space-low;
+      }
+    }
+  }
+  &-small-right {
+    margin-right: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: $space-low;
+      }
+    }
+  }
+  &-small-bottom {
+    margin-bottom: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: $space-low;
+      }
+    }
+  }
+  &-small-left {
+    margin-left: $space-low;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: $space-low;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: $space-low;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: $space-low;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: $space-low;
+      }
+    }
+  }
+  &-medium {
+    margin: $space-medium round($space-medium * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin: $space-medium round($space-medium * 1.75);
+      }
+    }
+  }
+  &-medium-top {
+    margin-top: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: $space-medium;
+      }
+    }
+  }
+  &-medium-right {
+    margin-right: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: $space-medium;
+      }
+    }
+  }
+  &-medium-bottom {
+    margin-bottom: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: $space-medium;
+      }
+    }
+  }
+  &-medium-left {
+    margin-left: $space-medium;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: $space-medium;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: $space-medium;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: $space-medium;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: $space-medium;
+      }
+    }
+  }
+  &-large {
+    margin: $space-high round($space-high * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin: $space-high round($space-high * 1.75);
+      }
+    }
+  }
+  &-large-top {
+    margin-top: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: $space-high;
+      }
+    }
+  }
+  &-large-right {
+    margin-right: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: $space-high;
+      }
+    }
+  }
+  &-large-bottom {
+    margin-bottom: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: $space-high;
+      }
+    }
+  }
+  &-large-left {
+    margin-left: $space-high;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: $space-high;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: $space-high;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: $space-high;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: $space-high;
+      }
+    }
+  }
+  &-ultra {
+    margin: $space-ultra round($space-ultra * 1.75);
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin: $space-ultra round($space-ultra * 1.75);
+      }
+    }
+  }
+  &-ultra-top {
+    margin-top: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-top: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-top: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-top: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-top: $space-ultra;
+      }
+    }
+  }
+  &-ultra-right {
+    margin-right: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-right: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-right: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-right: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-right: $space-ultra;
+      }
+    }
+  }
+  &-ultra-bottom {
+    margin-bottom: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-bottom: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-bottom: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-bottom: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-bottom: $space-ultra;
+      }
+    }
+  }
+  &-ultra-left {
+    margin-left: $space-ultra;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        margin-left: $space-ultra;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        margin-left: $space-ultra;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        margin-left: $space-ultra;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        margin-left: $space-ultra;
+      }
+    }
+  }
+}

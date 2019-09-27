@@ -1,12 +1,27 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
 
-@import 'scss/main/core';
-@import 'scss/main/spacing';
-@import 'scss/main/text';
-@import 'scss/main/background';
-@import 'scss/main/box';
-@import 'scss/main/content';
-@import 'scss/main/grid';
-@import 'scss/main/width';
-@import 'scss/main/visibility';
+// 1. Load default variables
+
+@import 'scss/variables';
+
+// 2. Apply custom variable overrides and mixins
+
+// $color-primary: ...
+// @mixin(...) {...}
+
+// 3. Load KSFace core modules
+
+@import 'scss/core';
+@import 'scss/spacing';
+@import 'scss/text';
+@import 'scss/background';
+@import 'scss/box';
+@import 'scss/content';
+@import 'scss/grid';
+@import 'scss/width';
+@import 'scss/visibility';
+
+// 4. Apply your custom CSS classes
+
+// .my-own-class {...}
