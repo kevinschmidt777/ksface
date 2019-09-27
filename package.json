@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://bitbucket.ksserver.de/scm/ksfac/ksface.git"
+    "url": "https://gitlab.ksserver.de/kevin/ksface.git"
   },
   "author": "Kevin Schmidt",
   "license": "MIT",
