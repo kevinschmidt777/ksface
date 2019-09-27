@@ -4,11 +4,71 @@
 .ks-width {
   &-1-1 {
     width: 100%;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        width: 100%;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        width: 100%;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        width: 100%;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        width: 100%;
+      }
+    }
   }
   &-1-2 {
     width: 50%;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        width: 50%;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        width: 50%;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        width: 50%;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        width: 50%;
+      }
+    }
   }
   &-1-3 {
     width: 25%;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        width: 25%;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        width: 25%;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        width: 25%;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        width: 25%;
+      }
+    }
   }
 }
