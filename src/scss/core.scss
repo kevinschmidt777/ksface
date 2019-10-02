@@ -118,6 +118,7 @@ input[type='week'] {
   color: $font-color;
   font-size: $font-size;
   font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
   @if (mixin_exists(inputs)) {
     @include inputs;
   }
