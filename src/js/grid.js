@@ -1,5 +1,5 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt Webentwicklung - www.kswebentwicklung.de
+// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
 
 // Select parent from .ks-grid to apply overflow:hidden (hide overflowing grid div)
 document.addEventListener('DOMContentLoaded', function(event) {
