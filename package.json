@@ -1,6 +1,6 @@
 {
   "name": "ksface",
-  "version": "0.3.3",
+  "version": "0.3.5",
   "description": "a modern minimalist frontend framework",
   "main": "src/index.js",
   "scripts": {
