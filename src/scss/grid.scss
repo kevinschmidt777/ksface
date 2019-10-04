@@ -359,6 +359,57 @@
       }
     }
   }
+  .ks-grid-shrink {
+    width: auto;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        width: auto;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        width: auto;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        width: auto;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        width: auto;
+      }
+    }
+  }
+  .ks-grid-expand {
+    flex: 1;
+    min-width: 1px;
+    &\@small {
+      @media (min-width: $breakpoint-small) {
+        flex: 1;
+        min-width: 1px;
+      }
+    }
+    &\@medium {
+      @media (min-width: $breakpoint-medium) {
+        flex: 1;
+        min-width: 1px;
+      }
+    }
+    &\@large {
+      @media (min-width: $breakpoint-large) {
+        flex: 1;
+        min-width: 1px;
+      }
+    }
+    &\@ultra {
+      @media (min-width: $breakpoint-ultra) {
+        flex: 1;
+        min-width: 1px;
+      }
+    }
+  }
 }
 
 .ks-grid {
