@@ -1,80 +1,41 @@
 // KSFace - www.ksface.com
 // Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
 
-// Google Web Fonts
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
-// Padding and margin resets
-* {
-  padding: 0;
-  margin: 0;
+// Font faces
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 // Body settings
 body {
+  padding: 0;
+  margin: 0;
   font-size: $font-size;
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
-  color: $font-color;
-  background-color: $background-color;
-  overflow-x: hidden; // Avoid horizontal scrolling effects on small displays
-
-  // Selection Background Color
-  ::-moz-selection {
-    background: lighten($color-primary, 15%);
-  }
-  ::selection {
-    background: lighten($color-primary, 15%);
-  }
-
-  @if (mixin_exists(body)) {
-    @include body;
-  }
+  font-family: 'Montserrat', sans-serif;
 }
 
 // Headlines
-h1 {
-  color: $font-color;
-  font-size: 3rem;
-  font-weight: normal;
-  margin-top: $space-low;
-  margin-bottom: $space-low;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   &:first-child {
     margin-top: 0 !important;
   }
   &:last-child {
     margin-bottom: 0 !important;
   }
-  @if (mixin_exists(headlines)) {
-    @include headlines;
-  }
 }
 
 // Paragraphs
 p {
-  padding-top: $space-low;
-  padding-bottom: $space-low;
-  @if (mixin_exists(paragraphs)) {
-    @include paragraphs;
-  }
-}
-
-// Links
-a,
-a:active,
-a:focus {
-  text-decoration: none;
-  color: $font-color;
-  transition: $transition-timer;
-  @if (mixin_exists(links)) {
-    @include links;
-  }
-}
-a:hover {
-  @if (mixin_exists(links_hover)) {
-    @include links_hover;
-  }
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 // Buttons
@@ -83,23 +44,7 @@ input[type='button'],
 input[type='submit'],
 input[type='reset'] {
   -webkit-appearance: none;
-  border: 0;
-  background: transparent;
-  color: $font-color;
   cursor: pointer;
-  display: inline-block;
-  transition: $transition-timer;
-  font-size: $font-size;
-  font-family: 'Source Sans Pro', sans-serif;
-  box-sizing: border-box;
-  @if (mixin_exists(buttons)) {
-    @include buttons;
-  }
-  &:hover {
-    @if (mixin_exists(buttons_hover)) {
-      @include buttons_hover;
-    }
-  }
 }
 
 // Form inputs
@@ -116,44 +61,14 @@ input[type='tel'],
 input[type='time'],
 input[type='url'],
 input[type='week'] {
-  background: transparent;
-  border: 1px solid;
-  color: $font-color;
-  font-size: $font-size;
-  font-family: 'Source Sans Pro', sans-serif;
-  box-sizing: border-box;
-  @if (mixin_exists(inputs)) {
-    @include inputs;
-  }
+  font-family: 'Montserrat', sans-serif;
+}
+textarea {
+  font-family: 'Montserrat', sans-serif;
 }
 
 // Divider
 hr {
   border: 0;
   border-bottom: 1px solid;
-  @if (mixin_exists(divider)) {
-    @include divider;
-  }
-}
-
-// Images
-img {
-  max-width: 100%;
-}
-
-// Lists
-ul {
-  margin-left: 0;
-  padding-left: 20px;
-  @if (mixin_exists(lists)) {
-    @include lists;
-  }
-}
-
-// Tables
-table {
-  text-align: left;
-  @if (mixin_exists(tables)) {
-    @include tables;
-  }
 }

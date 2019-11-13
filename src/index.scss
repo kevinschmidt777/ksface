@@ -3,25 +3,13 @@
 
 // 1. Load default variables
 
-@import 'scss/variables';
+@import 'variables';
 
-// 2. Apply custom variable overrides and mixins
-
-// $color-primary: ...
-// @mixin(...) {...}
-
-// 3. Load KSFace core modules
+// 2. Load KSFace core modules
 
 @import 'scss/core';
-@import 'scss/spacing';
 @import 'scss/text';
-@import 'scss/background';
 @import 'scss/box';
 @import 'scss/content';
 @import 'scss/grid';
-@import 'scss/width';
 @import 'scss/visibility';
-
-// 4. Apply your custom CSS classes
-
-// .my-own-class {...}

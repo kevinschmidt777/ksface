@@ -2,7 +2,6 @@
 // Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
 
 const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
   mode: 'production', // production or development (minify output or not)
