@@ -1,0 +1,221 @@
+/* KSFace - www.ksface.com */
+/* Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de */
+
+@import '../src/variables';
+$box-width: 800px;
+@import '../src/index';
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+    url('fonts/montserrat-v14-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('fonts/montserrat-v14-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('fonts/montserrat-v14-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('fonts/montserrat-v14-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('fonts/montserrat-v14-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/montserrat-v14-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('fonts/montserrat-v14-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('fonts/montserrat-v14-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('fonts/montserrat-v14-latin-700.woff')
+      format('woff'),
+    /* Modern Browsers */ url('fonts/montserrat-v14-latin-700.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('fonts/montserrat-v14-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+
+$color1: rgba(30, 30, 36);
+$color2: #f54f0a;
+$color3: #7d6054;
+$color4: rgba(34, 51, 59);
+$color5: rgb(245, 245, 235);
+$color6: rgb(255, 255, 255);
+
+@mixin button($background, $fontcolor, $underlinecolor) {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9em;
+  background: $background;
+  color: $fontcolor;
+  border-radius: 3px;
+  padding: 1em 2em;
+  position: relative;
+  text-transform: uppercase;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 2px;
+    left: 2px;
+    background-color: $underlinecolor;
+    // -webkit-transform: scaleX(0);
+    // transform: scaleX(0);
+    -webkit-transition: all 0.15s ease-in-out 0s;
+    transition: all 0.15s ease-in-out 0s;
+  }
+  &:hover:before {
+    width: calc(100% - 4px);
+    // -webkit-transform: scaleX(1);
+    // transform: scaleX(1);
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: $color5;
+  color: $color4;
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 1.7em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color1;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -25px;
+    width: 35px;
+    height: 6px;
+    background-color: $color2;
+    z-index: -1;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+}
+h3 {
+  font-size: 1.7em;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.2em 0;
+  .logo {
+    width: auto;
+    font-size: 1.3em;
+    color: $color6;
+  }
+  .menu {
+    flex: 1;
+    img {
+      width: 20px;
+    }
+  }
+  &:before {
+    content: '';
+    background: $color3;
+    position: absolute;
+    z-index: -1;
+    top: -475px;
+    left: -50%;
+    width: 200%;
+    height: 500px;
+    transform: rotate(-20deg);
+  }
+}
+
+main {
+  .hero {
+    font-size: 2.2em;
+    padding-top: 6em;
+  }
+
+  .info {
+    padding: 4em 0;
+
+    .download {
+      @include button($color1, $color6, $color2);
+    }
+    .documentation {
+      @include button($color6, $color1, $color3);
+    }
+
+    > p {
+      padding-top: 0.8em;
+      font-size: 0.9em;
+    }
+  }
+
+  .scrolldown {
+    padding: 5em 0;
+    text-align: center;
+    color: $color2;
+    img {
+      width: 30px;
+    }
+  }
+}
+
+section.getit {
+  .ks-box {
+    padding: 10em 0;
+    text-align: center;
+
+    > div {
+      display: inline-block;
+
+      .npm {
+        background: $color6;
+        padding: 1em 2em;
+        margin-bottom: 2em;
+        border: 1px solid $color3;
+        border-radius: 3px;
+        font-size: 1.3em;
+      }
+      .download {
+        @include button($color4, $color5, $color2);
+      }
+      .documentation {
+        @include button($color6, $color1, $color3);
+      }
+    }
+  }
+}
+
+section.facts {
+  .ks-box {
+    padding: 7em 0;
+  }
+}
