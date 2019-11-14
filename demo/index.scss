@@ -76,6 +76,10 @@ $color6: rgb(255, 255, 255);
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background: $color5;
@@ -159,7 +163,7 @@ header {
 main {
   .hero {
     font-size: 2.2em;
-    padding-top: 6em;
+    padding-top: 8em;
   }
 
   .info {
