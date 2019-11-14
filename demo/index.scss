@@ -1,8 +1,6 @@
-/* KSFace - www.ksface.com */
-/* Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de */
+/* ksface - www.ksface.com */
+/* copyright (c) 2019 kevin schmidt - www.kswebentwicklung.de */
 
-@import '../src/variables';
-$box-width: 800px;
 @import '../src/index';
 
 @font-face {
@@ -138,7 +136,7 @@ header {
   padding: 1.2em 0;
   .logo {
     width: auto;
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: $color6;
   }
   .menu {
@@ -184,7 +182,6 @@ main {
 
   .scrolldown {
     padding: 5em 0;
-    text-align: center;
     color: $color2;
     img {
       width: 30px;
@@ -195,7 +192,6 @@ main {
 section.getit {
   .ks-box {
     padding: 10em 0;
-    text-align: center;
 
     > div {
       display: inline-block;
@@ -221,5 +217,15 @@ section.getit {
 section.facts {
   .ks-box {
     padding: 7em 0;
+  }
+}
+
+footer {
+  padding: 5em;
+  font-size: 0.7em;
+  color: $color3;
+  a {
+    text-decoration: none;
+    color: $color4;
   }
 }
