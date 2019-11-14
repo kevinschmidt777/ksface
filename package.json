@@ -1,6 +1,6 @@
 {
   "name": "ksface",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "a modern minimalist frontend framework",
   "main": "src/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.ksserver.de/kevin/ksface.git"
+    "url": "https://github.com/kevinschmidt777/ksface"
   },
   "author": "Kevin Schmidt",
   "license": "MIT",

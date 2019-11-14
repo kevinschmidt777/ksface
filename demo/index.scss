@@ -209,7 +209,7 @@ section.getit {
         font-size: 1.3em;
       }
       .download {
-        @include button($color4, $color5, $color2);
+        @include button($color1, $color6, $color2);
       }
       .documentation {
         @include button($color6, $color1, $color3);
