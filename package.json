@@ -1,12 +1,11 @@
 {
   "name": "ksface",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "real minimalistic frontend framework",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build_js": "sass src/index.scss dist/ksface.css --style compressed && webpack --config webpack.config.js",
-    "build": "sass src/index.scss dist/ksface.css --style compressed",
+    "build": "sass src/index.scss dist/ksface.css --style compressed && webpack --config webpack.config.js",
     "watch": "sass --watch src/index.scss dist/ksface.css && webpack --config webpack.config.js --watch"
   },
   "repository": {
