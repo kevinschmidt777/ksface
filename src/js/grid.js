@@ -2,7 +2,7 @@
 // Copyright (c) 2020 Kevin Schmidt - www.kswebentwicklung.de
 
 // Select parent from .ks-grid to apply overflow:hidden (hide overflowing grid div)
-window.window.document.addEventListener('DOMContentLoaded', function() {
+window.document.addEventListener('DOMContentLoaded', function() {
   const grids1 = window.document.getElementsByClassName('ks-grid');
   const grids2 = window.document.getElementsByClassName('ks-grid-minimal');
   const grids3 = window.document.getElementsByClassName('ks-grid-small');
