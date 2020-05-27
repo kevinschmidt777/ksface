@@ -1,26 +1,26 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
+// Copyright (c) 2020 Kevin Schmidt - www.kswebentwicklung.de
 
 .ks-hidden {
-  display: none !important;
+  display: none;
   &\@small {
     @media (min-width: $breakpoint-small) {
-      display: none !important;
+      display: none;
     }
   }
   &\@medium {
     @media (min-width: $breakpoint-medium) {
-      display: none !important;
+      display: none;
     }
   }
   &\@large {
     @media (min-width: $breakpoint-large) {
-      display: none !important;
+      display: none;
     }
   }
   &\@ultra {
     @media (min-width: $breakpoint-ultra) {
-      display: none !important;
+      display: none;
     }
   }
 }
@@ -28,22 +28,22 @@
 .ks-visible {
   &\@small {
     @media (max-width: $breakpoint-small - 1px) {
-      display: none !important;
+      display: none;
     }
   }
   &\@medium {
     @media (max-width: $breakpoint-medium - 1px) {
-      display: none !important;
+      display: none;
     }
   }
   &\@large {
     @media (max-width: $breakpoint-large - 1px) {
-      display: none !important;
+      display: none;
     }
   }
   &\@ultra {
     @media (max-width: $breakpoint-ultra - 1px) {
-      display: none !important;
+      display: none;
     }
   }
 }

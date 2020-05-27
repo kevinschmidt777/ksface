@@ -1,17 +1,17 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
+// Copyright (c) 2020 Kevin Schmidt - www.kswebentwicklung.de
 
 // Base typography
-$font-size: 16px !default;
+$font-size: 18px !default;
 
 // Responsive breakpoints
-$breakpoint-small: 576px !default;
-$breakpoint-medium: 960px !default;
-$breakpoint-large: 992px !default;
-$breakpoint-ultra: 1200px !default;
+$breakpoint-small: 500px !default;
+$breakpoint-medium: 800px !default;
+$breakpoint-large: 1000px !default;
+$breakpoint-ultra: 1250px !default;
 
 // Box max. width
-$box-width: 1400px !default;
+$box-width: 1500px !default;
 
 // Basic spaces
 $space-minimal: 2px !default;

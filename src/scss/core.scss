@@ -1,5 +1,5 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
+// Copyright (c) 2020 Kevin Schmidt - www.kswebentwicklung.de
 
 // Body settings
 body {
@@ -18,10 +18,10 @@ h6 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   &:first-child {
-    margin-top: 0 !important;
+    margin-top: 0;
   }
   &:last-child {
-    margin-bottom: 0 !important;
+    margin-bottom: 0;
   }
 }
 
@@ -29,6 +29,12 @@ h6 {
 p {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
+  &:first-child {
+    padding-top: 0;
+  }
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 
 // Buttons

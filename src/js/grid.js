@@ -1,14 +1,14 @@
 // KSFace - www.ksface.com
-// Copyright (c) 2019 Kevin Schmidt - www.kswebentwicklung.de
+// Copyright (c) 2020 Kevin Schmidt - www.kswebentwicklung.de
 
 // Select parent from .ks-grid to apply overflow:hidden (hide overflowing grid div)
-document.addEventListener('DOMContentLoaded', function() {
-  const grids1 = document.getElementsByClassName('ks-grid');
-  const grids2 = document.getElementsByClassName('ks-grid-minimal');
-  const grids3 = document.getElementsByClassName('ks-grid-small');
-  const grids4 = document.getElementsByClassName('ks-grid-medium');
-  const grids5 = document.getElementsByClassName('ks-grid-large');
-  const grids6 = document.getElementsByClassName('ks-grid-ultra');
+window.window.document.addEventListener('DOMContentLoaded', function() {
+  const grids1 = window.document.getElementsByClassName('ks-grid');
+  const grids2 = window.document.getElementsByClassName('ks-grid-minimal');
+  const grids3 = window.document.getElementsByClassName('ks-grid-small');
+  const grids4 = window.document.getElementsByClassName('ks-grid-medium');
+  const grids5 = window.document.getElementsByClassName('ks-grid-large');
+  const grids6 = window.document.getElementsByClassName('ks-grid-ultra');
   const grids = [];
   const gridParents = [];
 
