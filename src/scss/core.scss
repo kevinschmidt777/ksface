@@ -83,3 +83,8 @@ button {
   -webkit-appearance: none;
   outline: none;
 }
+
+// Remove browser autofill colors from inputs
+input {
+  filter: none;
+}
