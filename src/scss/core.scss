@@ -1,3 +1,5 @@
+@import '../variables';
+
 // Body settings
 html,
 body {
@@ -7,6 +9,7 @@ body {
 
 body {
   font-size: $font-size;
+  font-family: $font-family;
 }
 
 * {

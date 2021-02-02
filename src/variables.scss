@@ -1,18 +1,12 @@
 // Base typography
 $font-size: 18px !default;
+$font-family: 'ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"' !default;
 
 // Responsive breakpoints
-$breakpoint-small: 570px !default;
-$breakpoint-medium: 800px !default;
-$breakpoint-large: 1000px !default;
-$breakpoint-ultra: 1300px !default;
+$breakpoint-small: 640px !default;
+$breakpoint-medium: 1024px !default;
+$breakpoint-large: 1280px !default;
+$breakpoint-ultra: 1600px !default;
 
 // Box max. width
-$box-width: 1500px !default;
-
-// Basic spaces
-$space-minimal: 2px !default;
-$space-small: 10px !default;
-$space-medium: 20px !default;
-$space-large: 35px !default;
-$space-ultra: 60px !default;
+$box-width: 1680px !default;
