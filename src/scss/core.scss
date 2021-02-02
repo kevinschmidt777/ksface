@@ -50,7 +50,6 @@ button,
 input[type='button'],
 input[type='submit'],
 input[type='reset'] {
-  -webkit-appearance: none;
   cursor: pointer;
 }
 
@@ -65,4 +64,6 @@ input,
 button {
   font-size: inherit;
   font-family: inherit;
+  -webkit-appearance: none;
+  outline: none;
 }
