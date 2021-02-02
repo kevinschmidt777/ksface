@@ -59,3 +59,10 @@ hr {
   border: 0;
   border-bottom: 1px solid;
 }
+
+// Inputs and buttons default typo
+input,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
