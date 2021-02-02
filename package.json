@@ -1,10 +1,9 @@
 {
   "name": "ksface",
-  "version": "1.1.4",
-  "description": "real minimalistic frontend boilerplate",
+  "version": "2.0.0",
+  "description": "a real minimalistic frontend boilerplate",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sass src/index.scss dist/ksface.css --style compressed && webpack --config webpack.config.js",
     "watch": "sass --watch src/index.scss dist/ksface.css && webpack --config webpack.config.js --watch"
   },
@@ -14,14 +13,20 @@
   },
   "author": "Kevin Schmidt",
   "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "always",
+    "proseWrap": "never",
+    "printWidth": 140
+  },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.10.0",
-    "@babel/preset-env": "^7.10.0",
-    "babel-loader": "^8.1.0",
-    "prettier": "^1.19.1",
-    "sass": "^1.26.5",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "babel-loader": "8.2.2",
+    "prettier": "2.2.1",
+    "sass": "1.32.6",
+    "webpack": "5.19.0",
+    "webpack-cli": "4.4.0"
   }
 }

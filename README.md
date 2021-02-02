@@ -1,1 +1,2 @@
-KSFace Readme coming soon...
+#KSFace
+a modern real minimalistic frontend boilerplate. 
