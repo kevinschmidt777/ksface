@@ -1,5 +1,5 @@
 # KSFace
-a modern real minimalistic frontend boilerplate.
+a modern real minimalistic stylesheet boilerplate.
 
 ## Usage
 Simply use npm to install KSFace into your project:
